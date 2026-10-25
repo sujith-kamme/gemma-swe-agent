@@ -1,0 +1,18 @@
+name: localizer
+description: Read-only stage. Turns the PR title into an exact fix plan.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/localizer.md
+tools:
+  - run_command
+  - read_file
+  - search_similar_code
+  - get_code_neighbors
+  - get_code_subgraph
+skills:
+  - skills/rich
+  - skills/fastapi
+  - skills/requests
+output_key: plan
+disallow_transfer_to_parent: true
+disallow_transfer_to_peers: true
+generate_content_config: !include ../configs/sampling.yaml

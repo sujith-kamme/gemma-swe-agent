@@ -1,0 +1,19 @@
+name: fixer
+description: Implements the plan, verifies with the existing test file and submits the patch.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/fixer.md
+include_contents: none
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - write_file
+  - get_status
+  - submit_patch
+skills:
+  - skills/rich
+  - skills/fastapi
+  - skills/requests
+disallow_transfer_to_parent: true
+disallow_transfer_to_peers: true
+generate_content_config: !include ../configs/sampling.yaml
