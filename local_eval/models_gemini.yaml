@@ -1,0 +1,9 @@
+# Route competition model/adapter names to Google AI Studio's hosted Gemma 4 (bf16, no LoRA).
+# Endpoint and key come from OPENAI_BASE_URL / OPENAI_API_KEY at runtime.
+models:
+  gemma-4-31b-it-qat-w4a16-ct:
+    path: openai/gemma-4-31b-it
+  main_lora:
+    path: openai/gemma-4-31b-it
+  tool_lora:
+    path: openai/gemma-4-31b-it

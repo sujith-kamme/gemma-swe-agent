@@ -1,0 +1,37 @@
+# Secrets: never commit
+.env
+.env.*
+.kaggle/
+kaggle.json
+access_token
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Competition data and Kaggle-provided harness (not redistributable; download from Kaggle)
+gemma-4-developer-agent/
+wheelhouse/
+wheelhouse_files.txt
+harness_src/
+snapshots/
+*.tgz
+*.whl
+*.safetensors
+
+# Run outputs (traces contain competition task data)
+local_eval/results/
+local_eval/*.log
+kaggle/*/output/
+results/
+
+# OS / editor junk (incl. iCloud conflict copies)
+.DS_Store
+* 2
+* 2.*
+.idea/
+.vscode/
