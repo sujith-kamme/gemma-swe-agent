@@ -35,3 +35,6 @@ results/
 * 2.*
 .idea/
 .vscode/
+
+#docs
+CLAUDE.md
