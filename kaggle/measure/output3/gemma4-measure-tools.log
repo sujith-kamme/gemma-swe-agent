@@ -1,0 +1,65 @@
+[{"stream_name":"stderr","time":2.054998515,"data":"/kaggle/src/script.py:65: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.\n"}
+,{"stream_name":"stderr","time":2.055037535,"data":"  tf.extractall(td)\n"}
+,{"stream_name":"stdout","time":156.812707003,"data":"[  2.6m] competition 20/129\n"}
+,{"stream_name":"stdout","time":320.883199942,"data":"[  5.3m] competition 40/129\n"}
+,{"stream_name":"stdout","time":563.136685408,"data":"[  9.4m] competition 60/129\n"}
+,{"stream_name":"stdout","time":711.911970427,"data":"[ 11.8m] competition 80/129\n"}
+,{"stream_name":"stdout","time":915.855707956,"data":"[ 15.2m] competition 100/129\n"}
+,{"stream_name":"stdout","time":998.317983306,"data":"[ 16.6m] competition 120/129\n"}
+,{"stream_name":"stdout","time":1152.817658914,"data":"[ 19.2m] mined 20/240\n"}
+,{"stream_name":"stdout","time":1249.055052468,"data":"[ 20.8m] mined 40/240\n"}
+,{"stream_name":"stdout","time":1276.019153819,"data":"[ 21.3m] mined 60/240\n"}
+,{"stream_name":"stdout","time":1298.624722112,"data":"[ 21.6m] mined 80/240\n"}
+,{"stream_name":"stdout","time":1356.885667451,"data":"[ 22.6m] mined 100/240\n"}
+,{"stream_name":"stdout","time":1387.307069845,"data":"[ 23.1m] mined 120/240\n"}
+,{"stream_name":"stdout","time":1403.995711471,"data":"[ 23.4m] mined 140/240\n"}
+,{"stream_name":"stdout","time":1426.391419592,"data":"[ 23.8m] mined 160/240\n"}
+,{"stream_name":"stdout","time":1441.260645433,"data":"[ 24.0m] mined 180/240\n"}
+,{"stream_name":"stdout","time":1465.787188015,"data":"[ 24.4m] mined 200/240\n"}
+,{"stream_name":"stdout","time":1498.243263501,"data":"[ 25.0m] mined 220/240\n"}
+,{"stream_name":"stdout","time":1562.472656291,"data":"[ 26.0m] mined 240/240\n"}
+,{"stream_name":"stdout","time":1562.476177781,"data":"{\n"}
+,{"stream_name":"stdout","time":1562.476197351,"data":" \"competition\": {\n"}
+,{"stream_name":"stdout","time":1562.476201521,"data":"  \"tasks_with_existing_test_file\": 97,\n"}
+,{"stream_name":"stdout","time":1562.476205201,"data":"  \"tests@1 module only\": 0.619,\n"}
+,{"stream_name":"stdout","time":1562.476210001,"data":"  \"tests@3 module only\": 0.67,\n"}
+,{"stream_name":"stdout","time":1562.476214871,"data":"  \"tests@1 module+query\": 0.608,\n"}
+,{"stream_name":"stdout","time":1562.476219601,"data":"  \"tests@3 module+query\": 0.742,\n"}
+,{"stream_name":"stdout","time":1562.476224031,"data":"  \"tests@3 query only\": 0.536,\n"}
+,{"stream_name":"stdout","time":1562.476228651,"data":"  \"chain@3 locate top1\": 0.526,\n"}
+,{"stream_name":"stdout","time":1562.476232641,"data":"  \"chain@3 locate top1+query\": 0.588,\n"}
+,{"stream_name":"stdout","time":1562.476237301,"data":"  \"tasks\": 129,\n"}
+,{"stream_name":"stdout","time":1562.476241881,"data":"  \"file_hit@1\": 0.434,\n"}
+,{"stream_name":"stdout","time":1562.476246721,"data":"  \"file_hit@3\": 0.636,\n"}
+,{"stream_name":"stdout","time":1562.476251611,"data":"  \"file_hit@5\": 0.752,\n"}
+,{"stream_name":"stdout","time":1562.476255781,"data":"  \"symbol_file_hit@12\": 0.775,\n"}
+,{"stream_name":"stdout","time":1562.476260401,"data":"  \"run_tests_related_hit (oracle src, existing)\": 0.753,\n"}
+,{"stream_name":"stdout","time":1562.476264611,"data":"  \"no_src_gold\": 0,\n"}
+,{"stream_name":"stdout","time":1562.476268581,"data":"  \"median_locate_s\": 0.7\n"}
+,{"stream_name":"stdout","time":1562.476273101,"data":" },\n"}
+,{"stream_name":"stdout","time":1562.476277361,"data":" \"mined\": {\n"}
+,{"stream_name":"stdout","time":1562.476281371,"data":"  \"tasks_with_existing_test_file\": 234,\n"}
+,{"stream_name":"stdout","time":1562.476302861,"data":"  \"tests@1 module only\": 0.658,\n"}
+,{"stream_name":"stdout","time":1562.476305071,"data":"  \"tests@3 module only\": 0.842,\n"}
+,{"stream_name":"stdout","time":1562.476306991,"data":"  \"tests@1 module+query\": 0.667,\n"}
+,{"stream_name":"stdout","time":1562.476308881,"data":"  \"tests@3 module+query\": 0.88,\n"}
+,{"stream_name":"stdout","time":1562.476310751,"data":"  \"tests@3 query only\": 0.816,\n"}
+,{"stream_name":"stdout","time":1562.476312681,"data":"  \"chain@3 locate top1\": 0.726,\n"}
+,{"stream_name":"stdout","time":1562.476314531,"data":"  \"chain@3 locate top1+query\": 0.803,\n"}
+,{"stream_name":"stdout","time":1562.476316431,"data":"  \"tasks\": 240,\n"}
+,{"stream_name":"stdout","time":1562.476318291,"data":"  \"file_hit@1\": 0.742,\n"}
+,{"stream_name":"stdout","time":1562.476320161,"data":"  \"file_hit@3\": 0.912,\n"}
+,{"stream_name":"stdout","time":1562.476322011,"data":"  \"file_hit@5\": 0.929,\n"}
+,{"stream_name":"stdout","time":1562.476323871,"data":"  \"symbol_file_hit@12\": 0.925,\n"}
+,{"stream_name":"stdout","time":1562.476325771,"data":"  \"run_tests_related_hit (oracle src, existing)\": 0.88,\n"}
+,{"stream_name":"stdout","time":1562.476327721,"data":"  \"no_src_gold\": 0,\n"}
+,{"stream_name":"stdout","time":1562.476329621,"data":"  \"median_locate_s\": 0.2\n"}
+,{"stream_name":"stdout","time":1562.476331491,"data":" }\n"}
+,{"stream_name":"stdout","time":1562.476333291,"data":"}\n"}
+,{"stream_name":"stderr","time":1565.175207543,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1565.175244303,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1565.687849154,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1565.687886834,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1568.000490253,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1569.217379842,"data":"[NbConvertApp] Writing 312903 bytes to __results__.html\n"}
+]

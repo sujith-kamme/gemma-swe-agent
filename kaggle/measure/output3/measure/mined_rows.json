@@ -1,0 +1,5596 @@
+[
+ {
+  "id": "more_itertools_1305",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 59,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1269",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 68,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1260",
+  "gold_src": [
+   "more_itertools/recipes.py"
+  ],
+  "test_files": [
+   "tests/test_recipes.py"
+  ],
+  "stmt_len": 56,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_recipes.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1276",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 54,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1285",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 50,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1279",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 61,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1278",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 38,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1270",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 50,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1261",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1116",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 53,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1253",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 67,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1251",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 70,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1248",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 68,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1223",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 52,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1216",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 56,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1211",
+  "gold_src": [
+   "more_itertools/recipes.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 44,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1200",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 42,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1193",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 36,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1166",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 18,
+  "locate_s": 0.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1158",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 53,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1157",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 36,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1154",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 68,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1153",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 46,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1135",
+  "gold_src": [
+   "more_itertools/more.py",
+   "more_itertools/recipes.py"
+  ],
+  "test_files": [
+   "tests/test_more.py",
+   "tests/test_recipes.py"
+  ],
+  "stmt_len": 35,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py",
+   "tests/test_recipes.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1128",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 66,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1127",
+  "gold_src": [
+   "more_itertools/recipes.py"
+  ],
+  "test_files": [
+   "tests/test_recipes.py"
+  ],
+  "stmt_len": 23,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_recipes.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1125",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 45,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1101",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 35,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1099",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 38,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1097",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 26,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1095",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 27,
+  "locate_s": 0.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1088",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 64,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1085",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 33,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1082",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 39,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1078",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 64,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1080",
+  "gold_src": [
+   "more_itertools/recipes.py"
+  ],
+  "test_files": [
+   "tests/test_recipes.py"
+  ],
+  "stmt_len": 35,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_recipes.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1062",
+  "gold_src": [
+   "more_itertools/recipes.py"
+  ],
+  "test_files": [
+   "tests/test_recipes.py"
+  ],
+  "stmt_len": 38,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_recipes.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1048",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 25,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1056",
+  "gold_src": [
+   "more_itertools/more.py"
+  ],
+  "test_files": [
+   "tests/test_more.py"
+  ],
+  "stmt_len": 35,
+  "locate_s": 0.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_more.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "more_itertools_1040",
+  "gold_src": [
+   "more_itertools/recipes.py"
+  ],
+  "test_files": [
+   "tests/test_recipes.py"
+  ],
+  "stmt_len": 35,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_recipes.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "more-itertools/more-itertools"
+ },
+ {
+  "id": "typer_1405",
+  "gold_src": [
+   "typer/rich_utils.py"
+  ],
+  "test_files": [
+   "tests/test_rich_markup_mode.py"
+  ],
+  "stmt_len": 73,
+  "locate_s": 0.4,
+  "file_rank": 6,
+  "sym_rank": 6,
+  "existing_test_files": [
+   "tests/test_rich_markup_mode.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/typer"
+ },
+ {
+  "id": "typer_1410",
+  "gold_src": [
+   "typer/rich_utils.py"
+  ],
+  "test_files": [
+   "tests/test_rich_utils.py",
+   "tests/test_tutorial/test_arguments/test_help/test_tutorial006.py",
+   "tests/test_tutorial/test_commands/test_help/test_tutorial007.py"
+  ],
+  "stmt_len": 97,
+  "locate_s": 0.4,
+  "file_rank": 2,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_rich_utils.py",
+   "tests/test_tutorial/test_arguments/test_help/test_tutorial006.py",
+   "tests/test_tutorial/test_commands/test_help/test_tutorial007.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "fastapi/typer"
+ },
+ {
+  "id": "typer_1820",
+  "gold_src": [
+   "typer/main.py"
+  ],
+  "test_files": [
+   "tests/test_launch.py"
+  ],
+  "stmt_len": 54,
+  "locate_s": 0.4,
+  "file_rank": 3,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_launch.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "fastapi/typer"
+ },
+ {
+  "id": "typer_1821",
+  "gold_src": [
+   "typer/_click/parser.py"
+  ],
+  "test_files": [
+   "tests/test_types.py"
+  ],
+  "stmt_len": 62,
+  "locate_s": 0.4,
+  "file_rank": null,
+  "sym_rank": 5,
+  "existing_test_files": [
+   "tests/test_types.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/typer"
+ },
+ {
+  "id": "typer_1791",
+  "gold_src": [
+   "typer/core.py"
+  ],
+  "test_files": [
+   "tests/test_others.py"
+  ],
+  "stmt_len": 76,
+  "locate_s": 0.4,
+  "file_rank": 2,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_others.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "fastapi/typer"
+ },
+ {
+  "id": "typer_1788",
+  "gold_src": [
+   "typer/core.py"
+  ],
+  "test_files": [
+   "tests/test_others.py"
+  ],
+  "stmt_len": 64,
+  "locate_s": 0.4,
+  "file_rank": 2,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_others.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 3,
+  "repo": "fastapi/typer"
+ },
+ {
+  "id": "tomlkit_660",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 92,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_567",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 2286,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 4,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_565",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 1118,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_539",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_api.py"
+  ],
+  "stmt_len": 187,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_api.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 3,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_552",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_api.py"
+  ],
+  "stmt_len": 1104,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_api.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_628",
+  "gold_src": [
+   "tomlkit/parser.py"
+  ],
+  "test_files": [
+   "tests/test_parser.py"
+  ],
+  "stmt_len": 43,
+  "locate_s": 0.2,
+  "file_rank": 3,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_parser.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 3,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_626",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 140,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_642",
+  "gold_src": [
+   "tomlkit/source.py"
+  ],
+  "test_files": [
+   "tests/test_parser.py"
+  ],
+  "stmt_len": 69,
+  "locate_s": 0.2,
+  "file_rank": 3,
+  "sym_rank": 5,
+  "existing_test_files": [
+   "tests/test_parser.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 4,
+  "run_tests_hit": false,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 3,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_599",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 66,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_581",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 476,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_629",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 396,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_641",
+  "gold_src": [
+   "tomlkit/_utils.py"
+  ],
+  "test_files": [
+   "tests/test_write.py"
+  ],
+  "stmt_len": 52,
+  "locate_s": 0.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_write.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_594",
+  "gold_src": [
+   "tomlkit/api.py"
+  ],
+  "test_files": [
+   "tests/test_api.py"
+  ],
+  "stmt_len": 760,
+  "locate_s": 0.2,
+  "file_rank": 3,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_api.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_595",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 955,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_610",
+  "gold_src": [
+   "tomlkit/api.py"
+  ],
+  "test_files": [
+   "tests/test_api.py"
+  ],
+  "stmt_len": 707,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_api.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_623",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 37,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_613",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 474,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 5,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_612",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 444,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_591",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 1104,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_620",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 63,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_600",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 80,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_586",
+  "gold_src": [
+   "tomlkit/parser.py"
+  ],
+  "test_files": [
+   "tests/test_parser.py"
+  ],
+  "stmt_len": 352,
+  "locate_s": 0.2,
+  "file_rank": 4,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_parser.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 4,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_563",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 113,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_550",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 605,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_544",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 68,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_551",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_api.py"
+  ],
+  "stmt_len": 1701,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_api.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_549",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 657,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_545",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 583,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_538",
+  "gold_src": [
+   "tomlkit/parser.py"
+  ],
+  "test_files": [
+   "tests/test_parser.py"
+  ],
+  "stmt_len": 460,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_parser.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 4,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_536",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 55,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_537",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 47,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_534",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 47,
+  "locate_s": 0.2,
+  "file_rank": 3,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_533",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 43,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_530",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 849,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_527",
+  "gold_src": [
+   "tomlkit/parser.py"
+  ],
+  "test_files": [
+   "tests/test_parser.py"
+  ],
+  "stmt_len": 55,
+  "locate_s": 0.2,
+  "file_rank": 4,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_parser.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 4,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_532",
+  "gold_src": [
+   "tomlkit/items.py"
+  ],
+  "test_files": [
+   "tests/test_items.py"
+  ],
+  "stmt_len": 39,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_items.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_526",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 808,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_498",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 1133,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 5,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_519",
+  "gold_src": [
+   "tomlkit/parser.py"
+  ],
+  "test_files": [
+   "tests/test_parser.py"
+  ],
+  "stmt_len": 64,
+  "locate_s": 0.2,
+  "file_rank": 4,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_parser.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 4,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "tomlkit_507",
+  "gold_src": [
+   "tomlkit/container.py"
+  ],
+  "test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "stmt_len": 988,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_toml_document.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "python-poetry/tomlkit"
+ },
+ {
+  "id": "arrow_1234",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 159,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1222",
+  "gold_src": [
+   "arrow/arrow.py"
+  ],
+  "test_files": [
+   "tests/test_arrow.py"
+  ],
+  "stmt_len": 135,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_arrow.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1218",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 237,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1201",
+  "gold_src": [
+   "arrow/__init__.py",
+   "arrow/formatter.py"
+  ],
+  "test_files": [
+   "tests/test_formatter.py"
+  ],
+  "stmt_len": 45,
+  "locate_s": 0.2,
+  "file_rank": 3,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 4,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1200",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 70,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1172",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 299,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1190",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 39,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1181",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 196,
+  "locate_s": 0.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1186",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 50,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1155",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 39,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1129",
+  "gold_src": [
+   "arrow/arrow.py",
+   "arrow/locales.py",
+   "arrow/parser.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 12,
+  "locate_s": 0.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1099",
+  "gold_src": [
+   "arrow/parser.py"
+  ],
+  "test_files": [
+   "tests/test_parser.py"
+  ],
+  "stmt_len": 40,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_parser.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1123",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 23,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1119",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 21,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1093",
+  "gold_src": [
+   "arrow/constants.py",
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 18,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1091",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 44,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "arrow_1074",
+  "gold_src": [
+   "arrow/locales.py"
+  ],
+  "test_files": [
+   "tests/test_locales.py"
+  ],
+  "stmt_len": 223,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_locales.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "arrow-py/arrow"
+ },
+ {
+  "id": "tenacity_741",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 455,
+  "locate_s": 0.1,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_645",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 693,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_696",
+  "gold_src": [
+   "tenacity/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_tornado.py"
+  ],
+  "stmt_len": 1003,
+  "locate_s": 0.1,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tornado.py"
+  ],
+  "tests_for_rank": 4,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_694",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py",
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 2021,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_656",
+  "gold_src": [
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 40,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_651",
+  "gold_src": [
+   "tenacity/retry.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 699,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_654",
+  "gold_src": [
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 292,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_653",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 1788,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_646",
+  "gold_src": [
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 635,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_643",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 901,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_640",
+  "gold_src": [
+   "tenacity/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 499,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_629",
+  "gold_src": [
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 423,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_628",
+  "gold_src": [
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 426,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_614",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 359,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_615",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/retry.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 306,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_609",
+  "gold_src": [
+   "tenacity/asyncio/retry.py",
+   "tenacity/retry.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 499,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_604",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 194,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_605",
+  "gold_src": [
+   "tenacity/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "stmt_len": 184,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_606",
+  "gold_src": [
+   "tenacity/retry.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 538,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_603",
+  "gold_src": [
+   "tenacity/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 79,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_591",
+  "gold_src": [
+   "tenacity/after.py"
+  ],
+  "test_files": [
+   "tests/test_after.py"
+  ],
+  "stmt_len": 267,
+  "locate_s": 0.1,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_after.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_556",
+  "gold_src": [
+   "tenacity/_utils.py"
+  ],
+  "test_files": [
+   "tests/test_utils.py"
+  ],
+  "stmt_len": 521,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_utils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_551",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "stmt_len": 31,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_541",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 210,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_489",
+  "gold_src": [
+   "tenacity/after.py",
+   "tenacity/before_sleep.py"
+  ],
+  "test_files": [
+   "tests/test_after.py"
+  ],
+  "stmt_len": 128,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_after.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_425",
+  "gold_src": [
+   "tenacity/wait.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 189,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_484",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 191,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_479",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/asyncio/__init__.py"
+  ],
+  "test_files": [
+   "tests/test_issue_478.py"
+  ],
+  "stmt_len": 140,
+  "locate_s": 0.1,
+  "file_rank": 3,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_437",
+  "gold_src": [
+   "tenacity/_asyncio.py",
+   "tenacity/_utils.py"
+  ],
+  "test_files": [
+   "tests/test_utils.py"
+  ],
+  "stmt_len": 103,
+  "locate_s": 0.1,
+  "file_rank": 2,
+  "sym_rank": 3,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_423",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/stop.py"
+  ],
+  "test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 412,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_406",
+  "gold_src": [
+   "tenacity/__init__.py",
+   "tenacity/_asyncio.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "stmt_len": 63,
+  "locate_s": 0.1,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py",
+   "tests/test_tenacity.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_387",
+  "gold_src": [
+   "tenacity/_asyncio.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "stmt_len": 367,
+  "locate_s": 0.1,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "tenacity_369",
+  "gold_src": [
+   "tenacity/_asyncio.py"
+  ],
+  "test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "stmt_len": 221,
+  "locate_s": 0.1,
+  "file_rank": 3,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_asyncio.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "jd/tenacity"
+ },
+ {
+  "id": "boltons_513",
+  "gold_src": [
+   "boltons/ioutils.py"
+  ],
+  "test_files": [
+   "tests/test_ioutils.py"
+  ],
+  "stmt_len": 250,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_ioutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_434",
+  "gold_src": [
+   "boltons/statsutils.py"
+  ],
+  "test_files": [
+   "tests/test_statsutils.py"
+  ],
+  "stmt_len": 65,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_statsutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_467",
+  "gold_src": [
+   "boltons/statsutils.py"
+  ],
+  "test_files": [
+   "tests/test_statsutils.py"
+  ],
+  "stmt_len": 57,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_statsutils.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_464",
+  "gold_src": [
+   "boltons/jsonutils.py"
+  ],
+  "test_files": [
+   "tests/test_jsonutils.py"
+  ],
+  "stmt_len": 220,
+  "locate_s": 0.3,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_jsonutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_465",
+  "gold_src": [
+   "boltons/jsonutils.py"
+  ],
+  "test_files": [
+   "tests/test_jsonutils.py"
+  ],
+  "stmt_len": 52,
+  "locate_s": 0.3,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_jsonutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_472",
+  "gold_src": [
+   "boltons/listutils.py"
+  ],
+  "test_files": [
+   "tests/test_listutils.py"
+  ],
+  "stmt_len": 509,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_listutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_471",
+  "gold_src": [
+   "boltons/listutils.py"
+  ],
+  "test_files": [
+   "tests/test_listutils.py"
+  ],
+  "stmt_len": 199,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_listutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_474",
+  "gold_src": [
+   "boltons/setutils.py"
+  ],
+  "test_files": [
+   "tests/test_setutils.py"
+  ],
+  "stmt_len": 193,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_setutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_440",
+  "gold_src": [
+   "boltons/listutils.py",
+   "boltons/setutils.py"
+  ],
+  "test_files": [
+   "tests/test_listutils.py",
+   "tests/test_setutils.py"
+  ],
+  "stmt_len": 329,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_listutils.py",
+   "tests/test_setutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_468",
+  "gold_src": [
+   "boltons/mathutils.py"
+  ],
+  "test_files": [
+   "tests/test_mathutils.py"
+  ],
+  "stmt_len": 185,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_mathutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_450",
+  "gold_src": [
+   "boltons/mathutils.py"
+  ],
+  "test_files": [
+   "tests/test_mathutils.py"
+  ],
+  "stmt_len": 477,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_mathutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_441",
+  "gold_src": [
+   "boltons/timeutils.py"
+  ],
+  "test_files": [
+   "tests/test_timeutils.py"
+  ],
+  "stmt_len": 431,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_timeutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_469",
+  "gold_src": [
+   "boltons/timeutils.py"
+  ],
+  "test_files": [
+   "tests/test_timeutils.py"
+  ],
+  "stmt_len": 51,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_timeutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_451",
+  "gold_src": [
+   "boltons/iterutils.py"
+  ],
+  "test_files": [
+   "tests/test_iterutils.py"
+  ],
+  "stmt_len": 52,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_iterutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_462",
+  "gold_src": [
+   "boltons/namedutils.py"
+  ],
+  "test_files": [
+   "tests/test_namedutils.py"
+  ],
+  "stmt_len": 524,
+  "locate_s": 0.3,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_namedutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_461",
+  "gold_src": [
+   "boltons/ecoutils.py"
+  ],
+  "test_files": [
+   "tests/test_ecoutils.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_ecoutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_458",
+  "gold_src": [
+   "boltons/dictutils.py",
+   "boltons/urlutils.py"
+  ],
+  "test_files": [
+   "tests/test_dictutils.py"
+  ],
+  "stmt_len": 865,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_dictutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_455",
+  "gold_src": [
+   "boltons/urlutils.py"
+  ],
+  "test_files": [
+   "tests/test_urlutils.py"
+  ],
+  "stmt_len": 286,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_urlutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_453",
+  "gold_src": [
+   "boltons/statsutils.py"
+  ],
+  "test_files": [
+   "tests/test_statsutils.py"
+  ],
+  "stmt_len": 414,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_statsutils.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_454",
+  "gold_src": [
+   "boltons/strutils.py"
+  ],
+  "test_files": [
+   "tests/test_strutils.py"
+  ],
+  "stmt_len": 284,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_strutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_445",
+  "gold_src": [
+   "boltons/funcutils.py"
+  ],
+  "test_files": [
+   "tests/test_funcutils_fb_py3.py"
+  ],
+  "stmt_len": 1007,
+  "locate_s": 0.4,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_funcutils_fb_py3.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_343",
+  "gold_src": [
+   "boltons/funcutils.py"
+  ],
+  "test_files": [
+   "tests/test_funcutils_fb.py",
+   "tests/test_funcutils_fb_py3.py"
+  ],
+  "stmt_len": 782,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_funcutils_fb.py",
+   "tests/test_funcutils_fb_py3.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_333",
+  "gold_src": [
+   "boltons/tbutils.py"
+  ],
+  "test_files": [
+   "tests/test_tbutils_parsed_exc.py"
+  ],
+  "stmt_len": 61,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_tbutils_parsed_exc.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "boltons_423",
+  "gold_src": [
+   "boltons/setutils.py"
+  ],
+  "test_files": [
+   "tests/test_setutils.py"
+  ],
+  "stmt_len": 85,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_setutils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "mahmoud/boltons"
+ },
+ {
+  "id": "toolz_635",
+  "gold_src": [
+   "toolz/itertoolz.py"
+  ],
+  "test_files": [
+   "toolz/tests/test_itertoolz.py"
+  ],
+  "stmt_len": 166,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "toolz/tests/test_itertoolz.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pytoolz/toolz"
+ },
+ {
+  "id": "toolz_634",
+  "gold_src": [
+   "toolz/functoolz.py"
+  ],
+  "test_files": [
+   "toolz/tests/test_functoolz.py"
+  ],
+  "stmt_len": 905,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "toolz/tests/test_functoolz.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pytoolz/toolz"
+ },
+ {
+  "id": "toolz_603",
+  "gold_src": [
+   "toolz/itertoolz.py"
+  ],
+  "test_files": [
+   "toolz/tests/test_itertoolz.py"
+  ],
+  "stmt_len": 301,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "toolz/tests/test_itertoolz.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pytoolz/toolz"
+ },
+ {
+  "id": "python_tabulate_386",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 22,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_218",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "stmt_len": 57,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_366",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 39,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_268",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_input.py"
+  ],
+  "stmt_len": 36,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_input.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 6,
+  "query_only_rank": 4,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 6,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_243",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 84,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_300",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_regression.py"
+  ],
+  "stmt_len": 54,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_regression.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_342",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/common.py",
+   "test/test_api.py",
+   "test/test_output.py",
+   "test/test_regression.py"
+  ],
+  "stmt_len": 86,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/common.py",
+   "test/test_api.py",
+   "test/test_output.py",
+   "test/test_regression.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_331",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 32,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_341",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 29,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 3,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_319",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 81,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_221",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/common.py",
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "stmt_len": 38,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/common.py",
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_210",
+  "gold_src": [
+   "tabulate/__init__.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 297,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_194",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 23,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_163",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/common.py",
+   "test/test_internal.py",
+   "test/test_output.py"
+  ],
+  "stmt_len": 79,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/common.py",
+   "test/test_internal.py",
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_118",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_api.py",
+   "test/test_internal.py",
+   "test/test_output.py"
+  ],
+  "stmt_len": 69,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_api.py",
+   "test/test_internal.py",
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_123",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_textwrapper.py"
+  ],
+  "stmt_len": 68,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_textwrapper.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_115",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "stmt_len": 27,
+  "locate_s": 0.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_125",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_input.py"
+  ],
+  "stmt_len": 17,
+  "locate_s": 0.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "test/test_input.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_139",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_157",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "stmt_len": 66,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_api.py",
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_151",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_output.py"
+  ],
+  "stmt_len": 60,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_output.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 2,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "python_tabulate_152",
+  "gold_src": [
+   "tabulate.py"
+  ],
+  "test_files": [
+   "test/test_internal.py"
+  ],
+  "stmt_len": 89,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_internal.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "astanin/python-tabulate"
+ },
+ {
+  "id": "parso_242",
+  "gold_src": [
+   "parso/python/errors.py"
+  ],
+  "test_files": [
+   "test/test_python_errors.py"
+  ],
+  "stmt_len": 65,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_python_errors.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "davidhalter/parso"
+ },
+ {
+  "id": "parso_237",
+  "gold_src": [
+   "parso/python/tree.py"
+  ],
+  "test_files": [
+   "test/test_parser.py"
+  ],
+  "stmt_len": 46,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "test/test_parser.py"
+  ],
+  "tests_for_rank": 4,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "davidhalter/parso"
+ },
+ {
+  "id": "parso_234",
+  "gold_src": [
+   "parso/grammar.py"
+  ],
+  "test_files": [
+   "test/test_load_grammar.py"
+  ],
+  "stmt_len": 47,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "test/test_load_grammar.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "davidhalter/parso"
+ },
+ {
+  "id": "pyflakes_907",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 53,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": 4,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_897",
+  "gold_src": [
+   "pyflakes/api.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_api.py"
+  ],
+  "stmt_len": 61,
+  "locate_s": 0.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "pyflakes/test/test_api.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 5,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_893",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_custom_builtins.py"
+  ],
+  "stmt_len": 31,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_890",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_imports.py"
+  ],
+  "stmt_len": 44,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_imports.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_881",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_undefined_names.py"
+  ],
+  "stmt_len": 151,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_undefined_names.py"
+  ],
+  "tests_for_rank": 5,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 3,
+  "run_tests_hit": false,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 4,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_872",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_other.py",
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 38,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_other.py",
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_871",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 79,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_868",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 55,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 6,
+  "query_only_rank": 3,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 6,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_864",
+  "gold_src": [
+   "pyflakes/checker.py",
+   "pyflakes/messages.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_imports.py",
+   "pyflakes/test/test_lazy_imports.py",
+   "pyflakes/test/test_other.py"
+  ],
+  "stmt_len": 31,
+  "locate_s": 0.1,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_imports.py",
+   "pyflakes/test/test_other.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_842",
+  "gold_src": [
+   "pyflakes/checker.py",
+   "pyflakes/messages.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_imports.py",
+   "pyflakes/test/test_other.py",
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 23,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "pyflakes/test/test_imports.py",
+   "pyflakes/test/test_other.py",
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_836",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 5,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_831",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "stmt_len": 56,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 5,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_825",
+  "gold_src": [
+   "pyflakes/checker.py",
+   "pyflakes/messages.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_imports.py",
+   "pyflakes/test/test_other.py",
+   "pyflakes/test/test_undefined_names.py"
+  ],
+  "stmt_len": 46,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_imports.py",
+   "pyflakes/test/test_other.py",
+   "pyflakes/test/test_undefined_names.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_801",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "stmt_len": 52,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_799",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 45,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": 5,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_778",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 53,
+  "locate_s": 0.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_772",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_match.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_match.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 5,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_765",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 63,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 5,
+  "query_only_rank": 3,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_761",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "stmt_len": 63,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 6,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 6,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_754",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 35,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_745",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "stmt_len": 46,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_668",
+  "gold_src": [
+   "pyflakes/checker.py",
+   "pyflakes/messages.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 162,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 6,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_729",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 54,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": 5,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_698",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "stmt_len": 64,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_other.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 5,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_679",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "stmt_len": 191,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_type_annotations.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 4,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "pyflakes_675",
+  "gold_src": [
+   "pyflakes/checker.py"
+  ],
+  "test_files": [
+   "pyflakes/test/test_imports.py"
+  ],
+  "stmt_len": 43,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "pyflakes/test/test_imports.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "PyCQA/pyflakes"
+ },
+ {
+  "id": "sqlparse_332",
+  "gold_src": [
+   "sqlparse/sql.py"
+  ],
+  "test_files": [
+   "tests/test_parse.py"
+  ],
+  "stmt_len": 615,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_parse.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "andialbrecht/sqlparse"
+ },
+ {
+  "id": "sqlparse_633",
+  "gold_src": [
+   "sqlparse/sql.py"
+  ],
+  "test_files": [
+   "tests/test_regressions.py"
+  ],
+  "stmt_len": 47,
+  "locate_s": 0.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_regressions.py"
+  ],
+  "tests_for_rank": 4,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 4,
+  "chain_q_rank": 3,
+  "repo": "andialbrecht/sqlparse"
+ },
+ {
+  "id": "jsonschema_1416",
+  "gold_src": [
+   "jsonschema/benchmarks/import_benchmark.py",
+   "jsonschema/validators.py"
+  ],
+  "test_files": [
+   "jsonschema/tests/test_validators.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "jsonschema/tests/test_validators.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "python-jsonschema/jsonschema"
+ },
+ {
+  "id": "jsonschema_1224",
+  "gold_src": [
+   "jsonschema/_utils.py"
+  ],
+  "test_files": [
+   "jsonschema/tests/test_utils.py"
+  ],
+  "stmt_len": 54,
+  "locate_s": 0.2,
+  "file_rank": 5,
+  "sym_rank": null,
+  "existing_test_files": [
+   "jsonschema/tests/test_utils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "python-jsonschema/jsonschema"
+ },
+ {
+  "id": "pygments_3217",
+  "gold_src": [
+   "pygments/cmdline.py"
+  ],
+  "test_files": [
+   "tests/test_cmdline.py"
+  ],
+  "stmt_len": 31,
+  "locate_s": 1.0,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_cmdline.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 4,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3215",
+  "gold_src": [
+   "pygments/formatters/other.py"
+  ],
+  "test_files": [
+   "tests/test_raw_token.py"
+  ],
+  "stmt_len": 421,
+  "locate_s": 0.9,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_raw_token.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3204",
+  "gold_src": [
+   "pygments/lexers/markup.py"
+  ],
+  "test_files": [
+   "tests/test_markup.py"
+  ],
+  "stmt_len": 317,
+  "locate_s": 0.9,
+  "file_rank": null,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_markup.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3201",
+  "gold_src": [
+   "pygments/formatters/groff.py"
+  ],
+  "test_files": [
+   "tests/test_groff_formatter.py"
+  ],
+  "stmt_len": 695,
+  "locate_s": 0.9,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_groff_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3190",
+  "gold_src": [
+   "pygments/regexopt.py"
+  ],
+  "test_files": [
+   "tests/test_regexopt.py"
+  ],
+  "stmt_len": 70,
+  "locate_s": 0.9,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_regexopt.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 6,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 6,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3185",
+  "gold_src": [
+   "pygments/formatters/html.py"
+  ],
+  "test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "stmt_len": 54,
+  "locate_s": 0.9,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3158",
+  "gold_src": [
+   "pygments/lexers/markup.py"
+  ],
+  "test_files": [
+   "tests/test_markup.py"
+  ],
+  "stmt_len": 772,
+  "locate_s": 0.9,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3171",
+  "gold_src": [
+   "pygments/lexers/ruby.py"
+  ],
+  "test_files": [
+   "tests/test_ruby.py"
+  ],
+  "stmt_len": 840,
+  "locate_s": 0.9,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_ruby.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3175",
+  "gold_src": [
+   "pygments/formatters/latex.py"
+  ],
+  "test_files": [
+   "tests/test_latex_formatter.py"
+  ],
+  "stmt_len": 1490,
+  "locate_s": 1.0,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_latex_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3180",
+  "gold_src": [
+   "pygments/formatters/html.py",
+   "pygments/style.py"
+  ],
+  "test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "stmt_len": 44,
+  "locate_s": 0.9,
+  "file_rank": 1,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3086",
+  "gold_src": [
+   "pygments/formatters/html.py",
+   "pygments/formatters/svg.py"
+  ],
+  "test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "stmt_len": 46,
+  "locate_s": 0.9,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3090",
+  "gold_src": [
+   "pygments/util.py"
+  ],
+  "test_files": [
+   "tests/test_util.py"
+  ],
+  "stmt_len": 47,
+  "locate_s": 0.9,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_util.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_3078",
+  "gold_src": [
+   "pygments/formatters/html.py",
+   "pygments/util.py"
+  ],
+  "test_files": [
+   "tests/test_html_formatter.py",
+   "tests/test_util.py"
+  ],
+  "stmt_len": 51,
+  "locate_s": 0.9,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_html_formatter.py",
+   "tests/test_util.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2712",
+  "gold_src": [
+   "pygments/lexers/special.py"
+  ],
+  "test_files": [
+   "tests/test_basic_api.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.8,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_basic_api.py"
+  ],
+  "tests_for_rank": 3,
+  "tests_for_q_rank": 5,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2428",
+  "gold_src": [
+   "pygments/lexers/_mapping.py",
+   "pygments/lexers/graphql.py"
+  ],
+  "test_files": [
+   "tests/test_graphql.py"
+  ],
+  "stmt_len": 23,
+  "locate_s": 0.8,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2370",
+  "gold_src": [
+   "pygments/lexers/carbon.py"
+  ],
+  "test_files": [
+   "tests/test_guess.py"
+  ],
+  "stmt_len": 58,
+  "locate_s": 0.8,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_guess.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2343",
+  "gold_src": [
+   "pygments/formatters/groff.py"
+  ],
+  "test_files": [
+   "tests/test_groff_formatter.py"
+  ],
+  "stmt_len": 49,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_groff_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2270",
+  "gold_src": [
+   "pygments/formatters/irc.py"
+  ],
+  "test_files": [
+   "tests/test_irc_formatter.py"
+  ],
+  "stmt_len": 72,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_irc_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2148",
+  "gold_src": [
+   "pygments/lexers/_mapping.py",
+   "pygments/lexers/templates.py"
+  ],
+  "test_files": [
+   "tests/test_templates.py"
+  ],
+  "stmt_len": 29,
+  "locate_s": 0.8,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_templates.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2024",
+  "gold_src": [
+   "pygments/formatters/groff.py"
+  ],
+  "test_files": [
+   "tests/test_groff_formatter.py"
+  ],
+  "stmt_len": 50,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2026",
+  "gold_src": [
+   "pygments/formatters/html.py"
+  ],
+  "test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "stmt_len": 159,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_html_formatter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ },
+ {
+  "id": "pygments_2049",
+  "gold_src": [
+   "pygments/lexers/data.py"
+  ],
+  "test_files": [
+   "tests/test_data.py"
+  ],
+  "stmt_len": 366,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_data.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "pygments/pygments"
+ }
+]
