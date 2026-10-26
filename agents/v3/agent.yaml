@@ -16,5 +16,5 @@ skills:
   - skills/localize
   - skills/tdd
   - skills/verify
-  - skills/notes
+  - skills/tools
 generate_content_config: !include configs/sampling.yaml

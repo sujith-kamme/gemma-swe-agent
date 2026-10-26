@@ -15,16 +15,16 @@ from pathlib import Path
 # ---------------------------------------------------------------- config
 MODEL_NAME = os.environ.get('MODEL_NAME', 'gemma-4-31b-it-qat-w4a16-ct')
 KEEP_SAMPLE_ADAPTERS = False  # sample adapters are dummies; baseline = plain base model
-TASK_IDS = ["fastapi_14794", "rich_3006", "rich_3777", "fastapi_9555", "rich_3470", "fastapi_15588", "rich_3521", "rich_3935", "rich_3480"]
+TASK_IDS = ["rich_3006", "fastapi_14794"]
 # Budget we would actually submit (written into the agent's eval_config.yaml).
 EVAL_CONFIG = {
-    'timeout_seconds': 90,               # per-command timeout (not per task)
+    'timeout_seconds': 120,              # per-command timeout (not per task)
     'verification_timeout_seconds': 300,
     'max_tool_calls': 50,
     'max_time_minutes': 5,
     'max_turns': 100,
 }
-STOP_AFTER_MINUTES = 55                  # GPU quota guard: start no new task after this
+STOP_AFTER_MINUTES = 9                   # GPU quota guard: start no new task after this
 
 os.environ.update({
     'TRANSFORMERS_NO_TF': '1', 'TRANSFORMERS_NO_FLAX': '1', 'TRANSFORMERS_OFFLINE': '1',

@@ -1,6 +1,6 @@
 ---
 name: localize
-description: Find the code that actually produces the behavior in the task by tracing from the public API, not by matching file names. Includes a ranking script.
+description: Find the code that actually produces the behavior in the task by tracing from the public API, not by matching file names. Uses the locate tool.
 ---
 
 # Localize: find where the behavior is produced
@@ -12,7 +12,7 @@ Find the code path that runs for the input in your acceptance criterion.
 1. **Exact strings first.** Error messages, option names, CLI flags, literal values quoted in the task:
    `grep -rn "<exact string>" --include=*.py . | grep -v tests | head`
 2. **Rank candidates.**
-   `run_skill_script(skill_name="localize", file_path="scripts/locate.py", args=["<title and key sentence>"])`
+   `timeout 60 python .git/swe/locate.py "<title and key sentence>"` (tools installed, see the `tools` skill)
    Prints the best functions with file:line ranges, best files, and related test files. It is lexical: use it to pick
    what to read, not as proof.
 3. **Trace from the public API.** Start at the function/class the task names (or that a user would call), then follow
@@ -27,4 +27,4 @@ Find the code path that runs for the input in your acceptance criterion.
 - Read with line ranges. Never read the same range twice; write findings to notes instead.
 - Prefer the deepest shared function that all affected callers go through, but do not change unrelated callers.
 - If two candidates remain, pick the one the traceback or a quick print shows is executed.
-- Save: `run_skill_script(skill_name="notes", file_path="scripts/notes.py", args=["add", "location: <file>:<line> <function> because <reason>"])`
+- Save: `python .git/swe/notes.py add "location: <file>:<line> <function> because <reason>"`

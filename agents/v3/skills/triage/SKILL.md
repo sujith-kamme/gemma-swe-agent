@@ -31,4 +31,4 @@ One or two lines, in this shape:
   more than elegance.
 
 ## 3. Save it
-`run_skill_script(skill_name="notes", file_path="scripts/notes.py", args=["add", "spec: <criterion>"])`
+`python .git/swe/notes.py add "spec: <criterion>"`
