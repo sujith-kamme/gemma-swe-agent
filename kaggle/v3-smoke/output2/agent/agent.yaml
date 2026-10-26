@@ -1,0 +1,20 @@
+name: swe_agent_v3
+description: Test-first SWE agent. Understands the task, locates by tracing, reproduces with a failing test, fixes, verifies and submits.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include prompts/system.md
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - write_file
+  - get_status
+  - submit_patch
+  - search_similar_code
+  - get_code_neighbors
+skills:
+  - skills/triage
+  - skills/localize
+  - skills/tdd
+  - skills/verify
+  - skills/tools
+generate_content_config: !include configs/sampling.yaml

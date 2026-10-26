@@ -1,0 +1,25 @@
+{
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "eval_config": {
+    "timeout_seconds": 120,
+    "verification_timeout_seconds": 300,
+    "max_tool_calls": 50,
+    "max_time_minutes": 5,
+    "max_turns": 100
+  },
+  "resolved": 1,
+  "total": 1,
+  "rate": 1.0,
+  "minutes": 11.2,
+  "rows": [
+    {
+      "id": "fastapi_14794",
+      "resolved": true,
+      "exit_code": 0,
+      "tool_calls": 30,
+      "seconds": 223.5,
+      "patch_chars": 790,
+      "error": null
+    }
+  ]
+}

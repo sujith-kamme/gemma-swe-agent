@@ -1,0 +1,11 @@
+[
+  {
+    "id": "fastapi_14794",
+    "resolved": true,
+    "exit_code": 0,
+    "tool_calls": 30,
+    "seconds": 223.5,
+    "patch_chars": 790,
+    "error": null
+  }
+]

@@ -6,10 +6,22 @@ Run once, with no arguments. Afterwards call the tools with run_command, e.g.
 import os
 import shutil
 import subprocess
+import sys
+
+
+def wrapper_cwd():
+    # ADK's script wrapper chdirs into a temp dir (outside the repo on some sandboxes) and keeps
+    # the original working directory, which is the repository, in a local variable `_orig_cwd`.
+    f = sys._getframe()
+    while f is not None:
+        if '_orig_cwd' in f.f_locals:
+            return f.f_locals['_orig_cwd']
+        f = f.f_back
+    return None
 
 
 def workspace():
-    for c in [os.environ.get('SWE_WORKSPACE'), '/workspace', os.getcwd(), os.environ.get('HOME')]:
+    for c in [os.environ.get('SWE_WORKSPACE'), wrapper_cwd(), '/workspace', os.getcwd(), os.environ.get('HOME')]:
         if not c or not os.path.isdir(c):
             continue
         try:
