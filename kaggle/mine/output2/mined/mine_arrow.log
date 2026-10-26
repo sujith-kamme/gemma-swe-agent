@@ -1,0 +1,46 @@
+arrow_1234	True	ok
+arrow_1222	True	ok
+arrow_1224	False	tests pass before the fix
+arrow_1218	True	ok
+arrow_1201	True	ok
+arrow_1200	True	ok
+arrow_1172	True	ok
+arrow_1190	True	ok
+arrow_1181	True	ok
+arrow_1194	False	tests fail after the fix: LED tests/test_arrow.py::TestArrowConversion::test_anchorage_dst - assert ...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 70 passed, 2 warnings in 0.30s
+
+arrow_1186	True	ok
+arrow_1182	False	tests fail after the fix: LED tests/test_arrow.py::TestArrowConversion::test_anchorage_dst - assert ...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 70 passed, 2 warnings in 0.60s
+
+arrow_1155	True	ok
+arrow_1129	True	ok
+arrow_1131	False	tests fail after the fix: LED tests/test_arrow.py::TestArrowConversion::test_anchorage_dst - assert ...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 70 passed, 4 warnings in 0.53s
+
+arrow_1099	True	ok
+arrow_1123	True	ok
+arrow_1119	True	ok
+arrow_1096	False	tests fail after the fix: LED tests/test_arrow.py::TestArrowConversion::test_anchorage_dst - assert ...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 70 passed, 4 warnings in 0.34s
+
+arrow_1098	False	tests fail after the fix: LED tests/test_arrow.py::TestArrowConversion::test_anchorage_dst - assert ...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 70 passed, 4 warnings in 0.34s
+
+arrow_1105	False	tests fail after the fix: LED tests/test_arrow.py::TestArrowConversion::test_anchorage_dst - assert ...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 70 passed, 4 warnings in 0.37s
+
+arrow_1093	True	ok
+arrow_1088	False	tests fail after the fix: LED tests/test_arrow.py::TestArrowConversion::test_anchorage_dst - assert ...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 70 passed, 4 warnings in 0.35s
+
+arrow_1091	True	ok
+arrow_1074	True	ok

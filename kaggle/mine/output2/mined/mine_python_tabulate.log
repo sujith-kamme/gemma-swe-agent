@@ -1,0 +1,47 @@
+python_tabulate_422	False	tests pass before the fix
+python_tabulate_386	True	ok
+python_tabulate_313	False	tests fail after the fix: ===========
+FAILED test/test_textwrapper.py::test_wrap_wide_char_longword - AssertionError
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 4 passed in 0.13s
+
+python_tabulate_218	True	ok
+python_tabulate_362	False	tests fail after the fix: ===========
+FAILED test/test_textwrapper.py::test_wrap_wide_char_longword - AssertionError
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 4 passed in 0.14s
+
+python_tabulate_366	True	ok
+python_tabulate_268	True	ok
+python_tabulate_243	True	ok
+python_tabulate_279	False	tests pass before the fix
+python_tabulate_293	False	error: Command '['/kaggle/tmp/envs/python_tabulate/bin/python', '-m', 'pytest', 'test/test_input.py', 'test/test_internal.py', 'test/test_output.py', 'test/test_textwrapper.py', '-q', '-p', 'no:cacheprovider', '-x', '--no-header', '-o', 'addopts=']' timed out after 300 seconds
+python_tabulate_308	False	tests pass before the fix
+python_tabulate_300	True	ok
+python_tabulate_342	True	ok
+python_tabulate_331	True	ok
+python_tabulate_341	True	ok
+python_tabulate_319	True	ok
+python_tabulate_265	False	tests fail after the fix: 
+no tests ran in 0.01s
+
+python_tabulate_304	False	tests pass before the fix
+python_tabulate_221	True	ok
+python_tabulate_210	True	ok
+python_tabulate_183	False	tests fail after the fix: ============
+FAILED test/test_output.py::test_heavy_grid_wide_characters - AssertionError
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 49 passed in 0.27s
+
+python_tabulate_194	True	ok
+python_tabulate_196	False	tests pass before the fix
+python_tabulate_163	True	ok
+python_tabulate_118	True	ok
+python_tabulate_123	True	ok
+python_tabulate_115	True	ok
+python_tabulate_125	True	ok
+python_tabulate_139	True	ok
+python_tabulate_157	True	ok
+python_tabulate_165	False	tests pass before the fix
+python_tabulate_151	True	ok
+python_tabulate_152	True	ok

@@ -1,0 +1,40 @@
+pygments_3217	True	ok
+pygments_3215	True	ok
+pygments_3204	True	ok
+pygments_3201	True	ok
+pygments_3190	True	ok
+pygments_3185	True	ok
+pygments_3158	True	ok
+pygments_3171	True	ok
+pygments_3175	True	ok
+pygments_3180	True	ok
+pygments_3086	True	ok
+pygments_3090	True	ok
+pygments_3106	False	tests pass before the fix
+pygments_3078	True	ok
+pygments_2740	False	tests pass before the fix
+pygments_2713	False	tests fail after the fix: = short test summary info ============================
+ERROR tests/examplefiles/python/switch_case.py
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 error in 0.28s
+
+pygments_2712	True	ok
+pygments_2582	False	tests fail after the fix: 
+no tests ran in 0.01s
+
+pygments_2487	False	tests pass before the fix
+pygments_2428	True	ok
+pygments_2370	True	ok
+pygments_2343	True	ok
+pygments_2333	False	tests pass before the fix
+pygments_2270	True	ok
+pygments_2232	False	environment import error before fix
+pygments_2148	True	ok
+pygments_2123	False	tests fail after the fix: ing: Passing a no...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.26s
+
+pygments_2024	True	ok
+pygments_2026	True	ok
+pygments_2049	True	ok

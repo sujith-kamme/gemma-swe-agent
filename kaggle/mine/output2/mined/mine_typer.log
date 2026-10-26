@@ -1,0 +1,69 @@
+typer_1405	True	ok
+typer_1410	True	ok
+typer_1820	True	ok
+typer_1821	True	ok
+typer_1812	False	tests fail after the fix: 
+no tests ran in 0.00s
+ERROR: file or directory not found: tests/test_corner_cases.py
+
+
+typer_1791	True	ok
+typer_1788	True	ok
+typer_1695	False	environment import error before fix
+typer_1708	False	environment import error before fix
+typer_1539	False	environment import error before fix
+typer_1072	False	environment import error before fix
+typer_1508	False	environment import error before fix
+typer_1356	False	environment import error before fix
+typer_1089	False	environment import error before fix
+typer_816	False	environment import error before fix
+typer_1409	False	environment import error before fix
+typer_1304	False	environment import error before fix
+typer_1429	False	environment import error before fix
+typer_1427	False	environment import error before fix
+typer_1299	False	environment import error before fix
+typer_1350	False	environment import error before fix
+typer_1018	False	environment import error before fix
+typer_1297	False	environment import error before fix
+typer_1290	False	environment import error before fix
+typer_1183	False	environment import error before fix
+typer_1120	False	environment import error before fix
+typer_815	False	environment import error before fix
+typer_1128	False	environment import error before fix
+typer_1278	False	environment import error before fix
+typer_1138	False	environment import error before fix
+typer_964	False	environment import error before fix
+typer_1069	False	environment import error before fix
+typer_1067	False	environment import error before fix
+typer_974	False	environment import error before fix
+typer_877	False	tests fail after the fix: mpletion_complete.py
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.16s
+
+typer_847	False	environment import error before fix
+typer_1039	False	environment import error before fix
+typer_1035	False	environment import error before fix
+typer_979	False	environment import error before fix
+typer_988	False	environment import error before fix
+typer_944	False	environment import error before fix
+typer_859	False	environment import error before fix
+typer_360	False	environment import error before fix
+typer_858	False	environment import error before fix
+typer_548	False	environment import error before fix
+typer_814	False	environment import error before fix
+typer_737	False	environment import error before fix
+typer_796	False	environment import error before fix
+typer_757	False	environment import error before fix
+typer_761	False	environment import error before fix
+typer_782	False	environment import error before fix
+typer_664	False	environment import error before fix
+typer_721	False	environment import error before fix
+typer_473	False	environment import error before fix
+typer_751	False	environment import error before fix
+typer_571	False	environment import error before fix
+typer_586	False	environment import error before fix
+typer_416	False	environment import error before fix
+typer_412	False	environment import error before fix
+typer_143	False	environment import error before fix
+typer_210	False	environment import error before fix

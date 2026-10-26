@@ -1,0 +1,16 @@
+{
+  "more-itertools/more-itertools": "kept 40 tasks for more-itertools/more-itertools",
+  "encode/starlette": "kept 0 tasks for encode/starlette",
+  "fastapi/typer": "kept 6 tasks for fastapi/typer",
+  "python-poetry/tomlkit": "kept 40 tasks for python-poetry/tomlkit",
+  "arrow-py/arrow": "kept 17 tasks for arrow-py/arrow",
+  "jd/tenacity": "kept 33 tasks for jd/tenacity",
+  "mahmoud/boltons": "kept 24 tasks for mahmoud/boltons",
+  "pytoolz/toolz": "kept 3 tasks for pytoolz/toolz",
+  "astanin/python-tabulate": "kept 22 tasks for astanin/python-tabulate",
+  "davidhalter/parso": "kept 3 tasks for davidhalter/parso",
+  "PyCQA/pyflakes": "kept 26 tasks for PyCQA/pyflakes",
+  "andialbrecht/sqlparse": "kept 2 tasks for andialbrecht/sqlparse",
+  "python-jsonschema/jsonschema": "kept 2 tasks for python-jsonschema/jsonschema",
+  "pygments/pygments": "kept 22 tasks for pygments/pygments"
+}

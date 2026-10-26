@@ -1,0 +1,11 @@
+jsonschema_1482	False	tests pass before the fix
+jsonschema_1416	True	ok
+jsonschema_1396	False	tests fail after the fix: 
+no tests ran in 0.10s
+
+jsonschema_1390	False	environment import error before fix
+jsonschema_1224	True	ok
+jsonschema_972	False	environment import error before fix
+jsonschema_969	False	environment import error before fix
+jsonschema_949	False	environment import error before fix
+jsonschema_940	False	environment import error before fix

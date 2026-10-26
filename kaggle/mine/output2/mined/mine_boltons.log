@@ -1,0 +1,82 @@
+boltons_513	True	ok
+boltons_434	True	ok
+boltons_475	False	tests fail after the fix: =========
+FAILED tests/test_strutils.py::test_iter_splitlines_unicode_line_endings[\u2028]
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 3 passed in 0.07s
+
+boltons_467	True	ok
+boltons_464	True	ok
+boltons_465	True	ok
+boltons_472	True	ok
+boltons_471	True	ok
+boltons_474	True	ok
+boltons_440	True	ok
+boltons_468	True	ok
+boltons_450	True	ok
+boltons_441	True	ok
+boltons_469	True	ok
+boltons_451	True	ok
+boltons_462	True	ok
+boltons_461	True	ok
+boltons_458	True	ok
+boltons_455	True	ok
+boltons_453	True	ok
+boltons_454	True	ok
+boltons_446	False	tests pass before the fix
+boltons_445	True	ok
+boltons_343	True	ok
+boltons_333	True	ok
+boltons_423	True	ok
+boltons_350	False	tests fail after the fix: t/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_349	False	tests fail after the fix: i/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_341	False	tests fail after the fix: t/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_336	False	tests fail after the fix: f/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_338	False	tests fail after the fix: a/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_332	False	tests fail after the fix: 6/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_312	False	tests fail after the fix: p/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_315	False	tests fail after the fix: 0/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_327	False	tests fail after the fix: j/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_302	False	tests fail after the fix: c/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_305	False	tests fail after the fix: q/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_308	False	tests fail after the fix: g/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+
+boltons_298	False	tests fail after the fix: n/w/tests/conftest.py' for hook 'pytest_ignore_collect'
+hookimpl definition: pytest_ignore_collect(path, config)
+Argument(s) {'path'} are declared in the hookimpl but can not be found in the hookspec
+

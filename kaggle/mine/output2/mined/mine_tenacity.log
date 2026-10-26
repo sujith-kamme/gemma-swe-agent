@@ -1,0 +1,59 @@
+tenacity_741	True	ok
+tenacity_645	True	ok
+tenacity_696	True	ok
+tenacity_694	True	ok
+tenacity_677	False	tests pass before the fix
+tenacity_668	False	tests pass before the fix
+tenacity_660	False	error: Command '['/kaggle/tmp/envs/tenacity/bin/python', '-m', 'pytest', 'tests/test_tenacity.py', '-q', '-p', 'no:cacheprovider', '-x', '--no-header', '-o', 'addopts=']' timed out after 300 seconds
+tenacity_656	True	ok
+tenacity_651	True	ok
+tenacity_654	True	ok
+tenacity_653	True	ok
+tenacity_646	True	ok
+tenacity_643	True	ok
+tenacity_640	True	ok
+tenacity_629	True	ok
+tenacity_628	True	ok
+tenacity_620	False	tests pass before the fix
+tenacity_614	True	ok
+tenacity_615	True	ok
+tenacity_609	True	ok
+tenacity_604	True	ok
+tenacity_605	True	ok
+tenacity_606	True	ok
+tenacity_603	True	ok
+tenacity_601	False	tests pass before the fix
+tenacity_591	True	ok
+tenacity_568	False	tests pass before the fix
+tenacity_556	True	ok
+tenacity_551	True	ok
+tenacity_552	False	tests pass before the fix
+tenacity_541	True	ok
+tenacity_528	False	tests pass before the fix
+tenacity_489	True	ok
+tenacity_425	True	ok
+tenacity_484	True	ok
+tenacity_479	True	ok
+tenacity_463	False	tests pass before the fix
+tenacity_437	True	ok
+tenacity_423	True	ok
+tenacity_406	True	ok
+tenacity_387	True	ok
+tenacity_369	True	ok
+tenacity_371	False	tests fail after the fix:  tests/test_tenacity.py::TestRetryTyping::test_retry_type_annotations
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 88 passed, 10 subtests passed in 2.45s
+
+tenacity_362	False	tests fail after the fix: D tests/test_tenacity.py::TestRetryTyping::test_retry_type_annotations
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 88 passed, 8 subtests passed in 2.43s
+
+tenacity_342	False	tests fail after the fix: D tests/test_tenacity.py::TestRetryTyping::test_retry_type_annotations
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 87 passed, 8 subtests passed in 2.52s
+
+tenacity_351	False	tests fail after the fix: =============
+FAILED tests/test_tenacity.py::TestRetryTyping::test_retry_type_annotations
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 87 passed in 2.45s
+

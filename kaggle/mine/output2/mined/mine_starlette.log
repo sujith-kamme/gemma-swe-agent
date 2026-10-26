@@ -1,0 +1,655 @@
+starlette_3725	False	environment import error before fix
+starlette_3599	False	environment import error before fix
+starlette_3724	False	environment import error before fix
+starlette_3619	False	environment import error before fix
+starlette_3721	False	environment import error before fix
+starlette_3205	False	environment import error before fix
+starlette_3720	False	environment import error before fix
+starlette_3718	False	environment import error before fix
+starlette_3679	False	environment import error before fix
+starlette_3675	False	environment import error before fix
+starlette_3542	False	environment import error before fix
+starlette_3585	False	environment import error before fix
+starlette_3491	False	environment import error before fix
+starlette_3622	False	environment import error before fix
+starlette_3671	False	environment import error before fix
+starlette_3631	False	environment import error before fix
+starlette_3651	False	environment import error before fix
+starlette_3640	False	environment import error before fix
+starlette_3628	False	environment import error before fix
+starlette_3186	False	environment import error before fix
+starlette_3617	False	environment import error before fix
+starlette_3618	False	environment import error before fix
+starlette_3565	False	environment import error before fix
+starlette_3523	False	environment import error before fix
+starlette_3567	False	environment import error before fix
+starlette_3592	False	environment import error before fix
+starlette_3583	False	environment import error before fix
+starlette_3568	False	environment import error before fix
+starlette_3563	False	environment import error before fix
+starlette_3545	False	environment import error before fix
+starlette_3532	False	environment import error before fix
+starlette_3271	False	environment import error before fix
+starlette_3476	False	environment import error before fix
+starlette_3201	False	environment import error before fix
+starlette_2858	False	environment import error before fix
+starlette_3520	False	environment import error before fix
+starlette_3372	False	environment import error before fix
+starlette_3517	False	environment import error before fix
+starlette_3516	False	environment import error before fix
+starlette_3376	False	environment import error before fix
+starlette_3510	False	environment import error before fix
+starlette_3492	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3489	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2767	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3436	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3463	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3438	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3130	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3430	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3389	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3421	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3420	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3419	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3418	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3410	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3331	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3329	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3326	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3193	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3317	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3191	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3307	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3295	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3287	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3286	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3283	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3279	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3189	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3166	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3148	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3147	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3144	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3143	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3142	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3139	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3132	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3137	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3118	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3036	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3065	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3057	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2976	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2996	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_3029	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2939	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2998	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2984	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2962	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2671	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2501	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2922	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2911	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2909	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2896	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2812	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2865	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2871	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2840	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2851	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2814	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2827	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2826	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2810	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2815	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2804	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2806	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2808	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2761	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2711	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2768	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2732	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2716	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2752	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2725	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2672	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2702	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2703	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2677	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2701	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2688	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2600	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2620	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2577	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2583	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2576	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2568	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2485	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2041	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2443	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2435	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2425	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2427	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2422	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2406	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2377	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2362	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2381	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2334	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2376	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2366	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2360	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2341	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2351	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2352	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2349	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2280	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2309	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2230	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2231	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2211	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2219	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2191	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2194	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2207	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2193	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2181	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2183	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2026	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2159	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1692	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2157	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2077	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2070	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2065	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1385	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1405	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1903	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1908	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1965	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_2017	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1991	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1413	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1683	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1990	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1904	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1973	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1897	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1966	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1953	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1917	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1901	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1715	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1864	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1649	False	tests fail after the fix: ackages/anyio/_lazyimport.py:84: in emit_deprecation_warning
+    warnings.warn(
+E   DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+
+starlette_1263	False	environment import error before fix
+starlette_1732	False	environment import error before fix
+starlette_1648	False	environment import error before fix
+starlette_1675	False	environment import error before fix
+starlette_1377	False	environment import error before fix
+starlette_1651	False	environment import error before fix
+starlette_1449	False	environment import error before fix
+starlette_1643	False	environment import error before fix
+starlette_1625	False	environment import error before fix
+starlette_1616	False	environment import error before fix
+starlette_1580	False	environment import error before fix
+starlette_1553	False	environment import error before fix
+starlette_920	False	environment import error before fix
+starlette_1240	False	environment import error before fix
+starlette_1266	False	environment import error before fix
+starlette_1363	False	environment import error before fix
+starlette_1512	False	environment import error before fix
+starlette_1505	False	environment import error before fix
+starlette_1493	False	environment import error before fix
+starlette_1500	False	environment import error before fix
+starlette_1489	False	environment import error before fix
+starlette_1378	False	environment import error before fix
+starlette_1472	False	environment import error before fix
+starlette_1349	False	environment import error before fix
+starlette_761	False	environment import error before fix
+starlette_1462	False	environment import error before fix
+starlette_1421	False	environment import error before fix
+starlette_1459	False	environment import error before fix
+starlette_1445	False	environment import error before fix
+starlette_1437	False	environment import error before fix
+starlette_1431	False	environment import error before fix
+starlette_1436	False	environment import error before fix
+starlette_1435	False	environment import error before fix
+starlette_1432	False	environment import error before fix
+starlette_1417	False	environment import error before fix
+starlette_1422	False	environment import error before fix
+starlette_1387	False	environment import error before fix
+starlette_1312	False	environment import error before fix
+starlette_1397	False	environment import error before fix
+starlette_1382	False	environment import error before fix
+starlette_1395	False	environment import error before fix
+starlette_1361	False	environment import error before fix
