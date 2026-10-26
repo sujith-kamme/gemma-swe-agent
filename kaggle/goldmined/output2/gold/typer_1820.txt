@@ -1,0 +1,5 @@
+STDOUT:
+.......ss..s                                                             [100%]
+9 passed, 3 skipped in 0.15s
+
+STDERR:
