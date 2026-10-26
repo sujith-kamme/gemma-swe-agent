@@ -1,12 +1,15 @@
 """Find the existing tests that cover a source file or symbol, and show their style.
 
-Usage: tests_for.py <path/to/module.py | SymbolName> [more targets ...]
+Usage: tests_for.py <path/to/module.py | SymbolName> [more targets ...] [--query "<task title>"]
 
-Ranks test files by how often they import the module or mention the symbols,
-lists test function names in the best file, prints one short test as a style
-example, and gives the pytest command to run them.
+Ranks test files two ways and fuses the rankings: (1) how often they import the
+module or mention the symbols, (2) how well their file names and test names match
+the task text (tests are often named after the feature, not the module). Lists
+test names in the best file, prints one short test as a style example, and gives
+the pytest command to run them.
 """
 import ast
+import math
 import os
 import re
 import subprocess
@@ -31,10 +34,8 @@ def workspace():
 
 
 def is_test_file(rel):
-    parts = rel.split('/')
-    name = parts[-1]
-    return name.endswith('.py') and name != 'conftest.py' and (
-        name.startswith('test_') or name.endswith('_test.py') or any(p in ('tests', 'test', 'testing') for p in parts[:-1]))
+    name = rel.split('/')[-1]
+    return name.endswith('.py') and (name.startswith('test_') or name.endswith('_test.py'))
 
 
 def module_names(ws, path):
@@ -51,14 +52,45 @@ def module_names(ws, path):
     return names, parts[-1] if parts else ''
 
 
-def main():
-    targets = [a for a in sys.argv[1:] if a != '--']
-    if not targets:
-        print('usage: tests_for.py <path/to/module.py | SymbolName> [...]')
-        return
-    ws = workspace()
-    patterns = []
-    stems = []
+STOP = set('''the and for with from that this into when then than not are was were has have use used using add adds
+added support fix fixes fixed allow make new now also issue bug change changes update type types test tests should
+can could would will does via all any its get set'''.split())
+
+
+def words(text):
+    out = []
+    for t in re.findall(r'[A-Za-z][A-Za-z0-9_]*', text):
+        t = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1 \2', t)  # HTTPBearer -> HTTP Bearer
+        for p in re.sub(r'([a-z0-9])([A-Z])', r'\1 \2', t).replace('_', ' ').split():
+            p = p.lower()
+            if len(p) >= 3 and p not in STOP:
+                out.append(p[:-1] if p.endswith('s') and len(p) > 4 else p)
+    return out
+
+
+def rank_by_query(ws, files, query):
+    q = Counter(words(query))
+    scores = Counter()
+    for rel, txt in files.items():
+        name = Counter(words(os.path.splitext(rel)[0]))
+        tnames = Counter(w for n in re.findall(r'def (test_\w+)', txt) for w in words(n[5:]))
+        s = sum(w * (6 * min(name[t], 1) + min(tnames[t], 4)) for t, w in q.items())
+        if s:
+            scores[rel] = s
+    return scores
+
+
+def fuse(*rankings):
+    out = Counter()
+    for sc in rankings:
+        for i, (rel, _) in enumerate(sc.most_common()):
+            out[rel] += 1.0 / (5 + i)
+    return out
+
+
+def rank(ws, targets, query=''):
+    """Rank test files for source targets and/or a task-text query. Returns (patterns, stems, scores, contents)."""
+    patterns, stems = [], []
     for t in targets:
         if t.endswith('.py') and os.path.exists(os.path.join(ws, t)):
             names, stem = module_names(ws, t)
@@ -66,7 +98,6 @@ def main():
             for n in names:
                 if '.' in n:
                     patterns.append((re.compile(r'(from|import)\s+' + re.escape(n) + r'\b'), 5))
-            # also symbols defined at top level of that module
             try:
                 tree = ast.parse(open(os.path.join(ws, t), encoding='utf-8', errors='replace').read())
                 for node in tree.body:
@@ -75,32 +106,57 @@ def main():
             except Exception:
                 pass
         else:
-            sym = t.split('.')[-1]
-            patterns.append((re.compile(r'\b' + re.escape(sym) + r'\b'), 3))
-    scores = Counter()
+            patterns.append((re.compile(r'\b' + re.escape(t.split('.')[-1]) + r'\b'), 3))
+    contents, counts = {}, {}
     for root, dirs, files in os.walk(ws):
         dirs[:] = [d for d in dirs if d not in SKIP_DIRS and not d.startswith('.')]
         for f in files:
-            full = os.path.join(root, f)
-            rel = os.path.relpath(full, ws)
+            rel = os.path.relpath(os.path.join(root, f), ws)
             if not is_test_file(rel):
                 continue
             try:
-                txt = open(full, encoding='utf-8', errors='replace').read()
+                txt = open(os.path.join(root, f), encoding='utf-8', errors='replace').read()
             except Exception:
                 continue
-            s = sum(w * min(len(p.findall(txt)), 20) for p, w in patterns)
-            if any(st and st in f for st in stems):
-                s += 15
-            if s:
-                scores[rel] += s
+            contents[rel] = txt
+            counts[rel] = [min(len(p.findall(txt)), 20) for p, _ in patterns]
+    # down-weight patterns that most test files share (e.g. a core module every test imports)
+    n = len(contents) or 1
+    df = [sum(1 for c in counts.values() if c[i]) for i in range(len(patterns))]
+    idf = [math.log((n + 1) / (d + 1)) for d in df]
+    scores = Counter()
+    for rel, c in counts.items():
+        sc = sum(w * idf[i] * c[i] for i, (_, w) in enumerate(patterns))
+        if any(st and st in os.path.basename(rel) for st in stems):
+            sc += 15
+        if sc > 0:
+            scores[rel] = sc
+    if query:
+        q = rank_by_query(ws, contents, query)
+        scores = fuse(scores, q) if scores else q
+    return patterns, stems, scores, contents
+
+
+def main():
+    args = [a for a in sys.argv[1:] if a != '--']
+    query = ''
+    if '--query' in args:
+        i = args.index('--query')
+        query = ' '.join(args[i + 1:i + 2])
+        del args[i:i + 2]
+    targets = args
+    if not targets and not query:
+        print('usage: tests_for.py <path/to/module.py | SymbolName> [...] [--query "<task title>"]')
+        return
+    ws = workspace()
+    patterns, stems, scores, contents = rank(ws, targets, query)
     if not scores:
         print('No test file mentions these targets. Look for tests of the calling code instead (grep the public API name in the test directory).')
         return
     best = scores.most_common(6)
     print('Test files (most relevant first):')
     for rel, s in best:
-        print(f'  {rel}  score={s}')
+        print(f'  {rel}  score={s:.3g}')
     top = best[0][0]
     src = open(os.path.join(ws, top), encoding='utf-8', errors='replace').read()
     try:

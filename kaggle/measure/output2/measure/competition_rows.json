@@ -1,0 +1,3332 @@
+[
+ {
+  "id": "fastapi_15661",
+  "gold_src": [
+   "scripts/prepare_release.py"
+  ],
+  "test_files": [
+   "tests/test_prepare_release.py"
+  ],
+  "stmt_len": 1025,
+  "locate_s": 1.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15588",
+  "gold_src": [
+   "fastapi/sse.py"
+  ],
+  "test_files": [
+   "tests/test_sse.py"
+  ],
+  "stmt_len": 1891,
+  "locate_s": 1.2,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_sse.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 6,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15589",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_query_cookie_header_model_extra_params.py"
+  ],
+  "stmt_len": 1247,
+  "locate_s": 1.2,
+  "file_rank": 5,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_query_cookie_header_model_extra_params.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 6,
+  "query_only_rank": 4,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15030",
+  "gold_src": [
+   "docs_src/server_sent_events/tutorial001_py310.py",
+   "docs_src/server_sent_events/tutorial002_py310.py",
+   "docs_src/server_sent_events/tutorial003_py310.py",
+   "docs_src/server_sent_events/tutorial004_py310.py",
+   "docs_src/server_sent_events/tutorial005_py310.py",
+   "fastapi/openapi/utils.py",
+   "fastapi/responses.py",
+   "fastapi/routing.py",
+   "fastapi/sse.py"
+  ],
+  "test_files": [
+   "tests/test_sse.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial001.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial002.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial003.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial004.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial005.py"
+  ],
+  "stmt_len": 148,
+  "locate_s": 1.3,
+  "file_rank": 4,
+  "sym_rank": 4,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14962",
+  "gold_src": [
+   "docs_src/custom_response/tutorial010_py310.py",
+   "fastapi/_compat/v2.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_dump_json_fast_path.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial010.py"
+  ],
+  "stmt_len": 210,
+  "locate_s": 1.2,
+  "file_rank": 1,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_tutorial/test_custom_response/test_tutorial001.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15280",
+  "gold_src": [
+   "docs_src/vibe/tutorial001_py310.py",
+   "fastapi/applications.py"
+  ],
+  "test_files": [
+   "tests/test_vibe.py"
+  ],
+  "stmt_len": 64,
+  "locate_s": 0.9,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14964",
+  "gold_src": [
+   "fastapi/responses.py"
+  ],
+  "test_files": [
+   "tests/test_deprecated_responses.py",
+   "tests/test_orjson_response_class.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001b.py"
+  ],
+  "stmt_len": 370,
+  "locate_s": 1.0,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_orjson_response_class.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001b.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 4,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15023",
+  "gold_src": [
+   "docs_src/stream_data/tutorial002_py310.py"
+  ],
+  "test_files": [
+   "tests/test_tutorial/test_stream_data/test_tutorial002.py"
+  ],
+  "stmt_len": 112,
+  "locate_s": 1.2,
+  "file_rank": 2,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_tutorial/test_stream_data/test_tutorial002.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14986",
+  "gold_src": [
+   "fastapi/applications.py",
+   "fastapi/openapi/docs.py"
+  ],
+  "test_files": [
+   "tests/test_openapi_cache_root_path.py",
+   "tests/test_swagger_ui_escape.py"
+  ],
+  "stmt_len": 1000,
+  "locate_s": 1.1,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14978",
+  "gold_src": [
+   "docs_src/strict_content_type/tutorial001_py310.py",
+   "fastapi/applications.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_strict_content_type_app_level.py",
+   "tests/test_strict_content_type_nested.py",
+   "tests/test_strict_content_type_router_level.py",
+   "tests/test_tutorial/test_body/test_tutorial001.py",
+   "tests/test_tutorial/test_strict_content_type/test_tutorial001.py"
+  ],
+  "stmt_len": 112,
+  "locate_s": 1.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_tutorial/test_body/test_tutorial001.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "requests_7505",
+  "gold_src": [
+   "src/requests/_types.py",
+   "src/requests/models.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 518,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_7502",
+  "gold_src": [
+   "src/requests/models.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 67,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_7433",
+  "gold_src": [
+   "src/requests/models.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 498,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_7427",
+  "gold_src": [
+   "src/requests/utils.py"
+  ],
+  "test_files": [
+   "tests/test_utils.py"
+  ],
+  "stmt_len": 394,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_utils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 2,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_7315",
+  "gold_src": [
+   "src/requests/adapters.py"
+  ],
+  "test_files": [
+   "tests/test_adapters.py"
+  ],
+  "stmt_len": 694,
+  "locate_s": 0.3,
+  "file_rank": 3,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_adapters.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_7328",
+  "gold_src": [
+   "src/requests/sessions.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 580,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_7309",
+  "gold_src": [
+   "src/requests/utils.py"
+  ],
+  "test_files": [
+   "tests/test_utils.py"
+  ],
+  "stmt_len": 406,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_utils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_7205",
+  "gold_src": [
+   "src/requests/utils.py"
+  ],
+  "test_files": [
+   "tests/test_utils.py"
+  ],
+  "stmt_len": 609,
+  "locate_s": 0.3,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_utils.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "rich_4070",
+  "gold_src": [
+   "rich/_emoji_replace.py",
+   "rich/console.py",
+   "rich/emoji.py",
+   "rich/logging.py",
+   "rich/protocol.py",
+   "rich/repr.py",
+   "rich/segment.py",
+   "rich/syntax.py",
+   "rich/theme.py"
+  ],
+  "test_files": [
+   "tests/test_console.py",
+   "tests/test_syntax.py"
+  ],
+  "stmt_len": 3096,
+  "locate_s": 0.9,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_console.py",
+   "tests/test_syntax.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_4077",
+  "gold_src": [
+   "rich/file_proxy.py"
+  ],
+  "test_files": [
+   "tests/test_file_proxy.py"
+  ],
+  "stmt_len": 66,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_file_proxy.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_4079",
+  "gold_src": [
+   "rich/markdown.py"
+  ],
+  "test_files": [
+   "tests/test_markdown.py"
+  ],
+  "stmt_len": 71,
+  "locate_s": 0.8,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_markdown.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 4,
+  "chain_q_rank": 3,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_4076",
+  "gold_src": [
+   "rich/ansi.py"
+  ],
+  "test_files": [
+   "tests/test_ansi.py"
+  ],
+  "stmt_len": 71,
+  "locate_s": 0.8,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_ansi.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_4075",
+  "gold_src": [
+   "rich/console.py"
+  ],
+  "test_files": [
+   "tests/test_console.py"
+  ],
+  "stmt_len": 101,
+  "locate_s": 0.8,
+  "file_rank": 4,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_console.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 4,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_4006",
+  "gold_src": [
+   "rich/cells.py"
+  ],
+  "test_files": [
+   "tests/test_cells.py"
+  ],
+  "stmt_len": 96,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_cells.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "fastapi_14258",
+  "gold_src": [
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_router_circular_import.py"
+  ],
+  "stmt_len": 418,
+  "locate_s": 1.2,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14851",
+  "gold_src": [
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_router_events.py"
+  ],
+  "stmt_len": 464,
+  "locate_s": 1.0,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_router_events.py"
+  ],
+  "tests_for_rank": 5,
+  "tests_for_q_rank": 3,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 3,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14873",
+  "gold_src": [
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_router_events.py"
+  ],
+  "stmt_len": 674,
+  "locate_s": 1.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_router_events.py"
+  ],
+  "tests_for_rank": 5,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 1,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_13920",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_pep695.py"
+  ],
+  "stmt_len": 225,
+  "locate_s": 1.2,
+  "file_rank": 3,
+  "sym_rank": 7,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14794",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_response_dependency.py"
+  ],
+  "stmt_len": 816,
+  "locate_s": 1.2,
+  "file_rank": null,
+  "sym_rank": 6,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14786",
+  "gold_src": [
+   "fastapi/security/utils.py"
+  ],
+  "test_files": [
+   "tests/test_security_http_base.py",
+   "tests/test_security_oauth2_authorization_code_bearer.py"
+  ],
+  "stmt_len": 2303,
+  "locate_s": 1.1,
+  "file_rank": null,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_security_http_base.py",
+   "tests/test_security_oauth2_authorization_code_bearer.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14492",
+  "gold_src": [
+   "docs_src/metadata/tutorial001_1_py39.py"
+  ],
+  "test_files": [
+   "tests/test_tutorial/test_metadata/test_tutorial001_1.py"
+  ],
+  "stmt_len": 159,
+  "locate_s": 1.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_tutorial/test_metadata/test_tutorial001_1.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 3,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14479",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_invalid_sequence_param.py"
+  ],
+  "stmt_len": 2455,
+  "locate_s": 1.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_invalid_sequence_param.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14463",
+  "gold_src": [
+   "fastapi/openapi/utils.py"
+  ],
+  "test_files": [
+   "tests/test_additional_responses_union_duplicate_anyof.py"
+  ],
+  "stmt_len": 10095,
+  "locate_s": 1.3,
+  "file_rank": 3,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_12942",
+  "gold_src": [
+   "fastapi/_compat.py"
+  ],
+  "test_files": [
+   "tests/test_union_body_discriminator.py"
+  ],
+  "stmt_len": 1392,
+  "locate_s": 1.0,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14099",
+  "gold_src": [
+   "docs_src/dependencies/tutorial013_an_py310.py",
+   "docs_src/dependencies/tutorial014_an_py310.py",
+   "fastapi/applications.py",
+   "fastapi/middleware/asyncexitstack.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_after_yield_raise.py",
+   "tests/test_dependency_after_yield_streaming.py",
+   "tests/test_dependency_after_yield_websockets.py",
+   "tests/test_dependency_contextmanager.py",
+   "tests/test_route_scope.py",
+   "tests/test_tutorial/test_dependencies/test_tutorial008c.py"
+  ],
+  "stmt_len": 644,
+  "locate_s": 1.1,
+  "file_rank": 3,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_dependency_contextmanager.py",
+   "tests/test_route_scope.py",
+   "tests/test_tutorial/test_dependencies/test_tutorial008c.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14609",
+  "gold_src": [
+   "docs_src/request_form_models/tutorial002_pv1_an_py39.py",
+   "docs_src/request_form_models/tutorial002_pv1_py39.py",
+   "fastapi/_compat/__init__.py",
+   "fastapi/_compat/main.py",
+   "fastapi/_compat/may_v1.py",
+   "fastapi/_compat/model_field.py",
+   "fastapi/_compat/shared.py",
+   "fastapi/_compat/v1.py",
+   "fastapi/_compat/v2.py",
+   "fastapi/datastructures.py",
+   "fastapi/dependencies/utils.py",
+   "fastapi/encoders.py",
+   "fastapi/exceptions.py",
+   "fastapi/openapi/models.py",
+   "fastapi/openapi/utils.py",
+   "fastapi/param_functions.py",
+   "fastapi/params.py",
+   "fastapi/routing.py",
+   "fastapi/temp_pydantic_v1_params.py",
+   "fastapi/utils.py"
+  ],
+  "test_files": [
+   "tests/test_compat.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_datetime_custom_encoder.py",
+   "tests/test_filter_pydantic_sub_model/app_pv1.py",
+   "tests/test_filter_pydantic_sub_model/test_filter_pydantic_sub_model_pv1.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_inherited_custom_class.py",
+   "tests/test_jsonable_encoder.py"
+  ],
+  "stmt_len": 144,
+  "locate_s": 1.0,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_compat.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_datetime_custom_encoder.py",
+   "tests/test_filter_pydantic_sub_model/app_pv1.py",
+   "tests/test_filter_pydantic_sub_model/test_filter_pydantic_sub_model_pv1.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_inherited_custom_class.py",
+   "tests/test_jsonable_encoder.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 3,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14372",
+  "gold_src": [
+   "fastapi/dependencies/utils.py",
+   "fastapi/params.py"
+  ],
+  "test_files": [
+   "tests/test_depends_hashable.py"
+  ],
+  "stmt_len": 1160,
+  "locate_s": 1.3,
+  "file_rank": 5,
+  "sym_rank": 4,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14349",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_schema_ref_pydantic_v2.py"
+  ],
+  "stmt_len": 169,
+  "locate_s": 1.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14512",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_union_body_discriminator_annotated.py"
+  ],
+  "stmt_len": 289,
+  "locate_s": 1.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14487",
+  "gold_src": [
+   "docs_src/handling_errors/tutorial004.py"
+  ],
+  "test_files": [
+   "tests/test_tutorial/test_handling_errors/test_tutorial004.py"
+  ],
+  "stmt_len": 204,
+  "locate_s": 1.1,
+  "file_rank": 5,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_tutorial/test_handling_errors/test_tutorial004.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 5,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_11355",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_stringified_annotations_simple.py"
+  ],
+  "stmt_len": 299,
+  "locate_s": 1.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14485",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_stringified_annotation_dependency.py"
+  ],
+  "stmt_len": 317,
+  "locate_s": 1.3,
+  "file_rank": 5,
+  "sym_rank": 4,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14482",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_arbitrary_types.py"
+  ],
+  "stmt_len": 266,
+  "locate_s": 1.3,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14306",
+  "gold_src": [
+   "fastapi/exceptions.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_validation_error_context.py"
+  ],
+  "stmt_len": 2791,
+  "locate_s": 1.3,
+  "file_rank": 1,
+  "sym_rank": 6,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14458",
+  "gold_src": [
+   "fastapi/dependencies/models.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_class.py"
+  ],
+  "stmt_len": 591,
+  "locate_s": 1.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_dependency_class.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14459",
+  "gold_src": [
+   "fastapi/dependencies/models.py",
+   "fastapi/dependencies/utils.py",
+   "fastapi/openapi/utils.py"
+  ],
+  "test_files": [
+   "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi.py",
+   "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi_simple.py"
+  ],
+  "stmt_len": 815,
+  "locate_s": 1.2,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": 6,
+  "run_tests_hit": false,
+  "chain_tests_rank": 4,
+  "chain_q_rank": 2,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14448",
+  "gold_src": [
+   "fastapi/dependencies/models.py",
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_wrapped.py"
+  ],
+  "stmt_len": 1226,
+  "locate_s": 1.3,
+  "file_rank": 4,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_dependency_wrapped.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14455",
+  "gold_src": [
+   "fastapi/openapi/utils.py"
+  ],
+  "test_files": [
+   "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi.py"
+  ],
+  "stmt_len": 283,
+  "locate_s": 1.3,
+  "file_rank": 3,
+  "sym_rank": 3,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_9753",
+  "gold_src": [
+   "fastapi/dependencies/models.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_partial.py"
+  ],
+  "stmt_len": 689,
+  "locate_s": 1.4,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14430",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_compat.py"
+  ],
+  "stmt_len": 335,
+  "locate_s": 1.0,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_compat.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_5077",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/forward_reference_type.py",
+   "tests/test_wrapped_method_forward_reference.py"
+  ],
+  "stmt_len": 2679,
+  "locate_s": 1.4,
+  "file_rank": 1,
+  "sym_rank": 4,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_9555",
+  "gold_src": [
+   "fastapi/dependencies/models.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_wrapped.py"
+  ],
+  "stmt_len": 2934,
+  "locate_s": 1.1,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14361",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_schema_compat_pydantic_v2.py"
+  ],
+  "stmt_len": 96,
+  "locate_s": 1.3,
+  "file_rank": 4,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_13207",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_computed_fields.py"
+  ],
+  "stmt_len": 354,
+  "locate_s": 1.2,
+  "file_rank": 3,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_computed_fields.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14360",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_request_param_model_by_alias.py"
+  ],
+  "stmt_len": 753,
+  "locate_s": 1.3,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14356",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_query_cookie_header_model_extra_params.py",
+   "tests/test_tutorial/test_header_param_models/test_tutorial003.py"
+  ],
+  "stmt_len": 1481,
+  "locate_s": 1.4,
+  "file_rank": 3,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_tutorial/test_header_param_models/test_tutorial003.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_5624",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_security_scopes_dont_propagate.py"
+  ],
+  "stmt_len": 63,
+  "locate_s": 1.1,
+  "file_rank": null,
+  "sym_rank": 11,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14419",
+  "gold_src": [
+   "fastapi/dependencies/models.py",
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_security_scopes.py",
+   "tests/test_security_scopes_sub_dependency.py"
+  ],
+  "stmt_len": 689,
+  "locate_s": 1.3,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14301",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_yield_scope.py"
+  ],
+  "stmt_len": 739,
+  "locate_s": 1.3,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_dependency_yield_scope.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 5,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14262",
+  "gold_src": [
+   "docs_src/dependencies/tutorial008e.py",
+   "docs_src/dependencies/tutorial008e_an.py",
+   "docs_src/dependencies/tutorial008e_an_py39.py",
+   "fastapi/dependencies/models.py",
+   "fastapi/dependencies/utils.py",
+   "fastapi/exceptions.py",
+   "fastapi/param_functions.py",
+   "fastapi/params.py",
+   "fastapi/routing.py",
+   "fastapi/types.py"
+  ],
+  "test_files": [
+   "tests/test_dependency_yield_scope.py",
+   "tests/test_dependency_yield_scope_websockets.py",
+   "tests/test_tutorial/test_dependencies/test_tutorial008e.py"
+  ],
+  "stmt_len": 2437,
+  "locate_s": 1.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14266",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_top_level_security_scheme_in_openapi.py"
+  ],
+  "stmt_len": 247,
+  "locate_s": 1.2,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14246",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_no_schema_split.py",
+   "tests/test_pydantic_v1_v2_multifile/test_multifile.py"
+  ],
+  "stmt_len": 273,
+  "locate_s": 1.3,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_pydantic_v1_v2_multifile/test_multifile.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14186",
+  "gold_src": [
+   "fastapi/_compat/__init__.py",
+   "fastapi/_compat/main.py",
+   "fastapi/_compat/may_v1.py",
+   "fastapi/_compat/shared.py",
+   "fastapi/_compat/v1.py",
+   "fastapi/_compat/v2.py",
+   "fastapi/dependencies/utils.py",
+   "fastapi/encoders.py",
+   "fastapi/temp_pydantic_v1_params.py",
+   "fastapi/utils.py"
+  ],
+  "test_files": [
+   "tests/test_compat.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_response_model_as_return_annotation.py"
+  ],
+  "stmt_len": 1009,
+  "locate_s": 1.1,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_compat.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_response_model_as_return_annotation.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 4,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_9425",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_return_none_stringified_annotations.py"
+  ],
+  "stmt_len": 235,
+  "locate_s": 1.1,
+  "file_rank": 5,
+  "sym_rank": 2,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_13713",
+  "gold_src": [
+   "fastapi/applications.py",
+   "fastapi/openapi/utils.py"
+  ],
+  "test_files": [
+   "tests/main.py",
+   "tests/test_application.py"
+  ],
+  "stmt_len": 756,
+  "locate_s": 1.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/main.py",
+   "tests/test_application.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14077",
+  "gold_src": [
+   "docs_src/handling_errors/tutorial005.py",
+   "fastapi/exception_handlers.py",
+   "fastapi/openapi/utils.py"
+  ],
+  "test_files": [
+   "tests/test_enforce_once_required_parameter.py"
+  ],
+  "stmt_len": 677,
+  "locate_s": 1.2,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_enforce_once_required_parameter.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "rich_3718",
+  "gold_src": [
+   "rich/panel.py"
+  ],
+  "test_files": [
+   "tests/test_panel.py"
+  ],
+  "stmt_len": 749,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_panel.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3934",
+  "gold_src": [
+   "rich/live.py",
+   "rich/live_render.py"
+  ],
+  "test_files": [
+   "tests/test_live.py"
+  ],
+  "stmt_len": 64,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_live.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3953",
+  "gold_src": [
+   "rich/cells.py"
+  ],
+  "test_files": [
+   "tests/test_cells.py"
+  ],
+  "stmt_len": 130,
+  "locate_s": 0.8,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_cells.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 2,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 5,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3944",
+  "gold_src": [
+   "rich/cells.py"
+  ],
+  "test_files": [
+   "tests/test_cells.py"
+  ],
+  "stmt_len": 63,
+  "locate_s": 0.8,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_cells.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3942",
+  "gold_src": [
+   "rich/default_styles.py",
+   "rich/markdown.py"
+  ],
+  "test_files": [
+   "tests/_card_render.py",
+   "tests/test_markdown.py",
+   "tests/test_markdown_no_hyperlinks.py"
+  ],
+  "stmt_len": 54,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/_card_render.py",
+   "tests/test_markdown.py",
+   "tests/test_markdown_no_hyperlinks.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3938",
+  "gold_src": [
+   "rich/console.py",
+   "rich/segment.py"
+  ],
+  "test_files": [
+   "tests/test_segment.py",
+   "tests/test_text.py"
+  ],
+  "stmt_len": 89,
+  "locate_s": 0.7,
+  "file_rank": 4,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_segment.py",
+   "tests/test_text.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 3,
+  "chain_q_rank": 3,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3882",
+  "gold_src": [
+   "rich/prompt.py"
+  ],
+  "test_files": [
+   "tests/test_prompt.py"
+  ],
+  "stmt_len": 652,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_prompt.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3894",
+  "gold_src": [
+   "rich/_inspect.py"
+  ],
+  "test_files": [
+   "tests/test_inspect.py"
+  ],
+  "stmt_len": 1974,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_inspect.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3935",
+  "gold_src": [
+   "rich/table.py"
+  ],
+  "test_files": [
+   "tests/test_columns.py",
+   "tests/test_table.py"
+  ],
+  "stmt_len": 75,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_columns.py",
+   "tests/test_table.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 6,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3905",
+  "gold_src": [
+   "rich/progress.py"
+  ],
+  "test_files": [
+   "tests/test_progress.py"
+  ],
+  "stmt_len": 1672,
+  "locate_s": 0.8,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_progress.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3930",
+  "gold_src": [
+   "rich/__main__.py",
+   "rich/_cell_widths.py",
+   "rich/_unicode_data/__init__.py",
+   "rich/_unicode_data/_versions.py",
+   "rich/_unicode_data/unicode10-0-0.py",
+   "rich/_unicode_data/unicode11-0-0.py",
+   "rich/_unicode_data/unicode12-0-0.py",
+   "rich/_unicode_data/unicode12-1-0.py",
+   "rich/_unicode_data/unicode13-0-0.py",
+   "rich/_unicode_data/unicode14-0-0.py",
+   "rich/_unicode_data/unicode15-0-0.py",
+   "rich/_unicode_data/unicode15-1-0.py",
+   "rich/_unicode_data/unicode16-0-0.py",
+   "rich/_unicode_data/unicode17-0-0.py",
+   "rich/_unicode_data/unicode4-1-0.py",
+   "rich/_unicode_data/unicode5-0-0.py",
+   "rich/_unicode_data/unicode5-1-0.py",
+   "rich/_unicode_data/unicode5-2-0.py",
+   "rich/_unicode_data/unicode6-0-0.py",
+   "rich/_unicode_data/unicode6-1-0.py",
+   "rich/_unicode_data/unicode6-2-0.py",
+   "rich/_unicode_data/unicode6-3-0.py",
+   "rich/_unicode_data/unicode7-0-0.py",
+   "rich/_unicode_data/unicode8-0-0.py",
+   "rich/_unicode_data/unicode9-0-0.py",
+   "rich/cells.py"
+  ],
+  "test_files": [
+   "tests/test_cells.py",
+   "tests/test_text.py",
+   "tests/test_unicode_data.py"
+  ],
+  "stmt_len": 1224,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_cells.py",
+   "tests/test_text.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "httpx_3672",
+  "gold_src": [
+   "src/ahttpx/_parsers.py",
+   "src/ahttpx/_pool.py",
+   "src/ahttpx/_server.py",
+   "src/httpx/_network.py",
+   "src/httpx/_parsers.py",
+   "src/httpx/_pool.py",
+   "src/httpx/_server.py"
+  ],
+  "test_files": [
+   "tests/test_parsers.py"
+  ],
+  "stmt_len": 243,
+  "locate_s": 0.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_parsers.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "encode/httpx"
+ },
+ {
+  "id": "fastapi_14791",
+  "gold_src": [
+   "fastapi/openapi/utils.py"
+  ],
+  "test_files": [
+   "tests/test_additional_properties.py",
+   "tests/test_additional_properties_bool.py",
+   "tests/test_additional_responses_custom_model_in_callback.py",
+   "tests/test_additional_responses_default_validationerror.py",
+   "tests/test_annotated.py",
+   "tests/test_application.py",
+   "tests/test_dependency_duplicates.py",
+   "tests/test_enforce_once_required_parameter.py",
+   "tests/test_extra_routes.py",
+   "tests/test_filter_pydantic_sub_model_pv2.py",
+   "tests/test_forms_single_param.py",
+   "tests/test_generate_unique_id_function.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_get_request_body.py",
+   "tests/test_include_router_defaults_overrides.py",
+   "tests/test_infer_param_optionality.py",
+   "tests/test_modules_same_name_body/test_main.py",
+   "tests/test_multi_body_errors.py",
+   "tests/test_multi_query_errors.py",
+   "tests/test_no_schema_split.py",
+   "tests/test_openapi_examples.py",
+   "tests/test_openapi_query_parameter_extension.py",
+   "tests/test_openapi_separate_input_output_schemas.py",
+   "tests/test_param_in_path_and_dependency.py",
+   "tests/test_param_include_in_schema.py",
+   "tests/test_put_no_body.py",
+   "tests/test_regex_deprecated_body.py",
+   "tests/test_regex_deprecated_params.py",
+   "tests/test_repeated_dependency_schema.py"
+  ],
+  "stmt_len": 591,
+  "locate_s": 1.3,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_additional_properties.py",
+   "tests/test_additional_properties_bool.py",
+   "tests/test_additional_responses_custom_model_in_callback.py",
+   "tests/test_additional_responses_default_validationerror.py",
+   "tests/test_annotated.py",
+   "tests/test_application.py",
+   "tests/test_dependency_duplicates.py",
+   "tests/test_enforce_once_required_parameter.py",
+   "tests/test_extra_routes.py",
+   "tests/test_filter_pydantic_sub_model_pv2.py",
+   "tests/test_forms_single_param.py",
+   "tests/test_generate_unique_id_function.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_get_request_body.py",
+   "tests/test_include_router_defaults_overrides.py",
+   "tests/test_infer_param_optionality.py",
+   "tests/test_modules_same_name_body/test_main.py",
+   "tests/test_multi_body_errors.py",
+   "tests/test_multi_query_errors.py",
+   "tests/test_no_schema_split.py",
+   "tests/test_openapi_examples.py",
+   "tests/test_openapi_query_parameter_extension.py",
+   "tests/test_openapi_separate_input_output_schemas.py",
+   "tests/test_param_in_path_and_dependency.py",
+   "tests/test_param_include_in_schema.py",
+   "tests/test_put_no_body.py",
+   "tests/test_regex_deprecated_body.py",
+   "tests/test_regex_deprecated_params.py",
+   "tests/test_repeated_dependency_schema.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 2,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 3,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15800",
+  "gold_src": [
+   "docs_src/frontend/tutorial001_py310.py",
+   "docs_src/frontend/tutorial002_py310.py",
+   "docs_src/frontend/tutorial003_py310.py",
+   "docs_src/frontend/tutorial004_py310.py",
+   "docs_src/frontend/tutorial005_py310.py",
+   "docs_src/frontend/tutorial006_py310.py",
+   "fastapi/applications.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_frontend.py"
+  ],
+  "stmt_len": 1236,
+  "locate_s": 1.3,
+  "file_rank": 3,
+  "sym_rank": 5,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15785",
+  "gold_src": [
+   "fastapi/openapi/utils.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_router_include_context.py"
+  ],
+  "stmt_len": 1263,
+  "locate_s": 1.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_router_include_context.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14371",
+  "gold_src": [
+   "fastapi/_compat/v2.py",
+   "fastapi/dependencies/utils.py",
+   "fastapi/openapi/utils.py",
+   "fastapi/params.py"
+  ],
+  "test_files": [
+   "tests/test_request_params/test_body/test_list.py",
+   "tests/test_request_params/test_body/test_optional_list.py",
+   "tests/test_request_params/test_body/test_optional_str.py",
+   "tests/test_request_params/test_body/test_required_str.py",
+   "tests/test_request_params/test_cookie/test_optional_str.py",
+   "tests/test_request_params/test_cookie/test_required_str.py",
+   "tests/test_request_params/test_file/test_list.py",
+   "tests/test_request_params/test_file/test_optional.py",
+   "tests/test_request_params/test_file/test_optional_list.py",
+   "tests/test_request_params/test_file/test_required.py",
+   "tests/test_request_params/test_form/test_list.py",
+   "tests/test_request_params/test_form/test_optional_list.py",
+   "tests/test_request_params/test_form/test_optional_str.py",
+   "tests/test_request_params/test_form/test_required_str.py",
+   "tests/test_request_params/test_header/test_list.py",
+   "tests/test_request_params/test_header/test_optional_list.py",
+   "tests/test_request_params/test_header/test_optional_str.py",
+   "tests/test_request_params/test_header/test_required_str.py",
+   "tests/test_request_params/test_path/test_required_str.py",
+   "tests/test_request_params/test_query/test_list.py",
+   "tests/test_request_params/test_query/test_optional_list.py",
+   "tests/test_request_params/test_query/test_optional_str.py",
+   "tests/test_request_params/test_query/test_required_str.py"
+  ],
+  "stmt_len": 397,
+  "locate_s": 1.3,
+  "file_rank": 4,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_request_params/test_body/test_list.py",
+   "tests/test_request_params/test_body/test_optional_list.py",
+   "tests/test_request_params/test_body/test_optional_str.py",
+   "tests/test_request_params/test_body/test_required_str.py",
+   "tests/test_request_params/test_cookie/test_optional_str.py",
+   "tests/test_request_params/test_cookie/test_required_str.py",
+   "tests/test_request_params/test_file/test_list.py",
+   "tests/test_request_params/test_file/test_optional.py",
+   "tests/test_request_params/test_file/test_optional_list.py",
+   "tests/test_request_params/test_file/test_required.py",
+   "tests/test_request_params/test_form/test_list.py",
+   "tests/test_request_params/test_form/test_optional_list.py",
+   "tests/test_request_params/test_form/test_optional_str.py",
+   "tests/test_request_params/test_form/test_required_str.py",
+   "tests/test_request_params/test_header/test_list.py",
+   "tests/test_request_params/test_header/test_optional_list.py",
+   "tests/test_request_params/test_header/test_optional_str.py",
+   "tests/test_request_params/test_header/test_required_str.py",
+   "tests/test_request_params/test_path/test_required_str.py",
+   "tests/test_request_params/test_query/test_list.py",
+   "tests/test_request_params/test_query/test_optional_list.py",
+   "tests/test_request_params/test_query/test_optional_str.py",
+   "tests/test_request_params/test_query/test_required_str.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14605",
+  "gold_src": [
+   "fastapi/dependencies/utils.py",
+   "fastapi/exceptions.py",
+   "fastapi/openapi/utils.py",
+   "fastapi/params.py",
+   "fastapi/routing.py",
+   "fastapi/temp_pydantic_v1_params.py",
+   "fastapi/utils.py"
+  ],
+  "test_files": [
+   "tests/benchmarks/test_general_performance.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_pydantic_v1_deprecation_warnings.py",
+   "tests/test_regex_deprecated_body.py",
+   "tests/test_regex_deprecated_params.py",
+   "tests/test_schema_extra_examples.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial002.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial003.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial004.py",
+   "tests/test_tutorial/test_query_params_str_validations/test_tutorial004.py",
+   "tests/test_tutorial/test_request_form_models/test_tutorial002_pv1.py",
+   "tests/test_tutorial/test_schema_extra_example/test_tutorial001_pv1.py"
+  ],
+  "stmt_len": 242,
+  "locate_s": 1.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/benchmarks/test_general_performance.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_pydantic_v1_deprecation_warnings.py",
+   "tests/test_regex_deprecated_body.py",
+   "tests/test_regex_deprecated_params.py",
+   "tests/test_schema_extra_examples.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial002.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial003.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial004.py",
+   "tests/test_tutorial/test_query_params_str_validations/test_tutorial004.py",
+   "tests/test_tutorial/test_request_form_models/test_tutorial002_pv1.py",
+   "tests/test_tutorial/test_schema_extra_example/test_tutorial001_pv1.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15763",
+  "gold_src": [
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_router_include_context.py"
+  ],
+  "stmt_len": 1064,
+  "locate_s": 1.2,
+  "file_rank": 3,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_router_include_context.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": 6,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14583",
+  "gold_src": [
+   "fastapi/dependencies/utils.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/benchmarks/test_general_performance.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_datetime_custom_encoder.py",
+   "tests/test_filter_pydantic_sub_model/app_pv1.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_pydantic_v1_deprecation_warnings.py",
+   "tests/test_pydantic_v1_v2_01.py",
+   "tests/test_pydantic_v1_v2_list.py",
+   "tests/test_pydantic_v1_v2_mixed.py",
+   "tests/test_pydantic_v1_v2_multifile/main.py",
+   "tests/test_pydantic_v1_v2_noneable.py",
+   "tests/test_read_with_orm_mode.py",
+   "tests/test_response_model_as_return_annotation.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial002.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial003.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial004.py",
+   "tests/test_tutorial/test_request_form_models/test_tutorial002_pv1.py",
+   "tests/test_tutorial/test_schema_extra_example/test_tutorial001_pv1.py"
+  ],
+  "stmt_len": 104,
+  "locate_s": 1.0,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/benchmarks/test_general_performance.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_datetime_custom_encoder.py",
+   "tests/test_filter_pydantic_sub_model/app_pv1.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_pydantic_v1_v2_01.py",
+   "tests/test_pydantic_v1_v2_list.py",
+   "tests/test_pydantic_v1_v2_mixed.py",
+   "tests/test_pydantic_v1_v2_multifile/main.py",
+   "tests/test_pydantic_v1_v2_noneable.py",
+   "tests/test_read_with_orm_mode.py",
+   "tests/test_response_model_as_return_annotation.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial002.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial003.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial004.py",
+   "tests/test_tutorial/test_request_form_models/test_tutorial002_pv1.py",
+   "tests/test_tutorial/test_schema_extra_example/test_tutorial001_pv1.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_15745",
+  "gold_src": [
+   "docs_src/path_operation_advanced_configuration/tutorial002_py310.py",
+   "fastapi/applications.py",
+   "fastapi/openapi/utils.py",
+   "fastapi/routing.py"
+  ],
+  "test_files": [
+   "tests/test_custom_route_class.py",
+   "tests/test_router_include_context.py"
+  ],
+  "stmt_len": 4304,
+  "locate_s": 1.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_custom_route_class.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14297",
+  "gold_src": [
+   "fastapi/_compat/v2.py"
+  ],
+  "test_files": [
+   "tests/test_compat.py",
+   "tests/test_optional_file_list.py"
+  ],
+  "stmt_len": 1219,
+  "locate_s": 1.0,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_compat.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14303",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_forms_single_model.py"
+  ],
+  "stmt_len": 2644,
+  "locate_s": 1.4,
+  "file_rank": 4,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_forms_single_model.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_13537",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_form_default.py"
+  ],
+  "stmt_len": 1650,
+  "locate_s": 1.4,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14953",
+  "gold_src": [
+   "docs_src/json_base64_bytes/tutorial001_py310.py",
+   "fastapi/_compat/v2.py",
+   "fastapi/datastructures.py",
+   "scripts/playwright/json_base64_bytes/image01.py"
+  ],
+  "test_files": [
+   "tests/test_request_params/test_file/test_list.py",
+   "tests/test_request_params/test_file/test_optional.py",
+   "tests/test_request_params/test_file/test_optional_list.py",
+   "tests/test_request_params/test_file/test_required.py",
+   "tests/test_tutorial/test_json_base64_bytes/test_tutorial001.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001_02.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001_03.py",
+   "tests/test_tutorial/test_request_files/test_tutorial002.py",
+   "tests/test_tutorial/test_request_files/test_tutorial003.py",
+   "tests/test_tutorial/test_request_forms_and_files/test_tutorial001.py"
+  ],
+  "stmt_len": 1775,
+  "locate_s": 1.2,
+  "file_rank": 4,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_request_params/test_file/test_list.py",
+   "tests/test_request_params/test_file/test_optional.py",
+   "tests/test_request_params/test_file/test_optional_list.py",
+   "tests/test_request_params/test_file/test_required.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001_02.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001_03.py",
+   "tests/test_tutorial/test_request_files/test_tutorial002.py",
+   "tests/test_tutorial/test_request_files/test_tutorial003.py",
+   "tests/test_tutorial/test_request_forms_and_files/test_tutorial001.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_13786",
+  "gold_src": [
+   "docs_src/authentication_error_status_code/tutorial001_an.py",
+   "docs_src/authentication_error_status_code/tutorial001_an_py39.py",
+   "docs_src/security/tutorial003.py",
+   "docs_src/security/tutorial003_an.py",
+   "docs_src/security/tutorial003_an_py310.py",
+   "docs_src/security/tutorial003_an_py39.py",
+   "docs_src/security/tutorial003_py310.py",
+   "fastapi/security/api_key.py",
+   "fastapi/security/http.py",
+   "fastapi/security/oauth2.py",
+   "fastapi/security/open_id_connect_url.py"
+  ],
+  "test_files": [
+   "tests/test_security_api_key_cookie.py",
+   "tests/test_security_api_key_cookie_description.py",
+   "tests/test_security_api_key_header.py",
+   "tests/test_security_api_key_header_description.py",
+   "tests/test_security_api_key_query.py",
+   "tests/test_security_api_key_query_description.py",
+   "tests/test_security_http_base.py",
+   "tests/test_security_http_base_description.py",
+   "tests/test_security_http_basic_optional.py",
+   "tests/test_security_http_basic_realm.py",
+   "tests/test_security_http_basic_realm_description.py",
+   "tests/test_security_http_bearer.py",
+   "tests/test_security_http_bearer_description.py",
+   "tests/test_security_http_digest.py",
+   "tests/test_security_http_digest_description.py",
+   "tests/test_security_oauth2.py",
+   "tests/test_security_openid_connect.py"
+  ],
+  "stmt_len": 5328,
+  "locate_s": 1.3,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_security_api_key_cookie.py",
+   "tests/test_security_api_key_cookie_description.py",
+   "tests/test_security_api_key_header.py",
+   "tests/test_security_api_key_header_description.py",
+   "tests/test_security_api_key_query.py",
+   "tests/test_security_api_key_query_description.py",
+   "tests/test_security_http_base.py",
+   "tests/test_security_http_base_description.py",
+   "tests/test_security_http_basic_optional.py",
+   "tests/test_security_http_basic_realm.py",
+   "tests/test_security_http_basic_realm_description.py",
+   "tests/test_security_http_bearer.py",
+   "tests/test_security_http_bearer_description.py",
+   "tests/test_security_http_digest.py",
+   "tests/test_security_http_digest_description.py",
+   "tests/test_security_oauth2.py",
+   "tests/test_security_openid_connect.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 3,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 3,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_14616",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_json_type.py"
+  ],
+  "stmt_len": 1176,
+  "locate_s": 1.3,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "fastapi_11194",
+  "gold_src": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "test_files": [
+   "tests/test_file_and_form_order_issue_9116.py"
+  ],
+  "stmt_len": 617,
+  "locate_s": 1.0,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "fastapi/fastapi"
+ },
+ {
+  "id": "requests_6757",
+  "gold_src": [
+   "src/requests/compat.py",
+   "src/requests/utils.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 268,
+  "locate_s": 0.2,
+  "file_rank": 2,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_6629",
+  "gold_src": [
+   "src/requests/exceptions.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 836,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_6644",
+  "gold_src": [
+   "src/requests/adapters.py"
+  ],
+  "test_files": [
+   "tests/test_adapters.py"
+  ],
+  "stmt_len": 295,
+  "locate_s": 0.2,
+  "file_rank": 4,
+  "sym_rank": 4,
+  "existing_test_files": [],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_6589",
+  "gold_src": [
+   "src/requests/utils.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 237,
+  "locate_s": 0.2,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 2,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 2,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "requests_6592",
+  "gold_src": [
+   "src/requests/status_codes.py"
+  ],
+  "test_files": [
+   "tests/test_requests.py"
+  ],
+  "stmt_len": 239,
+  "locate_s": 0.2,
+  "file_rank": null,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_requests.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "psf/requests"
+ },
+ {
+  "id": "rich_3180",
+  "gold_src": [
+   "rich/_wrap.py",
+   "rich/cells.py"
+  ],
+  "test_files": [
+   "tests/test_cells.py",
+   "tests/test_text.py"
+  ],
+  "stmt_len": 1189,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_cells.py",
+   "tests/test_text.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3486",
+  "gold_src": [
+   "rich/default_styles.py",
+   "rich/syntax.py",
+   "rich/traceback.py"
+  ],
+  "test_files": [
+   "tests/test_traceback.py"
+  ],
+  "stmt_len": 98,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_traceback.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 6,
+  "query_only_rank": 5,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3777",
+  "gold_src": [
+   "rich/console.py",
+   "rich/diagnose.py"
+  ],
+  "test_files": [
+   "tests/test_console.py"
+  ],
+  "stmt_len": 341,
+  "locate_s": 0.7,
+  "file_rank": 2,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_console.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 2,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3468",
+  "gold_src": [
+   "rich/console.py"
+  ],
+  "test_files": [
+   "tests/test_console.py"
+  ],
+  "stmt_len": 146,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_console.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 4,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3782",
+  "gold_src": [
+   "rich/syntax.py"
+  ],
+  "test_files": [
+   "tests/test_syntax.py"
+  ],
+  "stmt_len": 68,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_syntax.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3772",
+  "gold_src": [
+   "rich/traceback.py"
+  ],
+  "test_files": [
+   "tests/test_traceback.py"
+  ],
+  "stmt_len": 131,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_traceback.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3296",
+  "gold_src": [
+   "rich/syntax.py"
+  ],
+  "test_files": [
+   "tests/test_syntax.py"
+  ],
+  "stmt_len": 818,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_syntax.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3675",
+  "gold_src": [
+   "rich/console.py",
+   "rich/diagnose.py"
+  ],
+  "test_files": [
+   "tests/test_console.py"
+  ],
+  "stmt_len": 168,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_console.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3676",
+  "gold_src": [
+   "rich/default_styles.py",
+   "rich/traceback.py"
+  ],
+  "test_files": [
+   "tests/test_traceback.py"
+  ],
+  "stmt_len": 42,
+  "locate_s": 0.7,
+  "file_rank": 2,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_traceback.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 5,
+  "chain_q_rank": 5,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3518",
+  "gold_src": [
+   "rich/table.py"
+  ],
+  "test_files": [
+   "tests/test_table.py"
+  ],
+  "stmt_len": 658,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_table.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3535",
+  "gold_src": [
+   "rich/cells.py",
+   "rich/segment.py"
+  ],
+  "test_files": [
+   "tests/test_cells.py"
+  ],
+  "stmt_len": 193,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_cells.py"
+  ],
+  "tests_for_rank": 2,
+  "tests_for_q_rank": 4,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3521",
+  "gold_src": [
+   "rich/segment.py"
+  ],
+  "test_files": [
+   "tests/test_segment.py"
+  ],
+  "stmt_len": 80,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_segment.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3506",
+  "gold_src": [
+   "rich/segment.py"
+  ],
+  "test_files": [
+   "tests/test_segment.py"
+  ],
+  "stmt_len": 115,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_segment.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3480",
+  "gold_src": [
+   "rich/text.py"
+  ],
+  "test_files": [
+   "tests/test_text.py"
+  ],
+  "stmt_len": 81,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_text.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3472",
+  "gold_src": [
+   "rich/pretty.py"
+  ],
+  "test_files": [
+   "tests/test_pretty.py"
+  ],
+  "stmt_len": 88,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_pretty.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3454",
+  "gold_src": [
+   "rich/highlighter.py"
+  ],
+  "test_files": [
+   "tests/test_highlighter.py"
+  ],
+  "stmt_len": 865,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_highlighter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3471",
+  "gold_src": [
+   "rich/text.py"
+  ],
+  "test_files": [
+   "tests/test_text.py"
+  ],
+  "stmt_len": 86,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_text.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3470",
+  "gold_src": [
+   "rich/console.py"
+  ],
+  "test_files": [
+   "tests/test_console.py"
+  ],
+  "stmt_len": 74,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_console.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3469",
+  "gold_src": [
+   "rich/markdown.py"
+  ],
+  "test_files": [
+   "tests/test_markdown.py"
+  ],
+  "stmt_len": 75,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_markdown.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3052",
+  "gold_src": [
+   "rich/prompt.py"
+  ],
+  "test_files": [
+   "tests/test_prompt.py"
+  ],
+  "stmt_len": 863,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_prompt.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3278",
+  "gold_src": [
+   "rich/ansi.py"
+  ],
+  "test_files": [
+   "tests/test_ansi.py"
+  ],
+  "stmt_len": 1216,
+  "locate_s": 0.7,
+  "file_rank": 2,
+  "sym_rank": 3,
+  "existing_test_files": [
+   "tests/test_ansi.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_2943",
+  "gold_src": [
+   "rich/style.py"
+  ],
+  "test_files": [
+   "tests/test_style.py"
+  ],
+  "stmt_len": 473,
+  "locate_s": 0.7,
+  "file_rank": 4,
+  "sym_rank": 5,
+  "existing_test_files": [
+   "tests/test_style.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": 2,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_2725",
+  "gold_src": [
+   "rich/table.py"
+  ],
+  "test_files": [
+   "tests/test_table.py"
+  ],
+  "stmt_len": 1779,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_table.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3105",
+  "gold_src": [
+   "rich/_export_format.py"
+  ],
+  "test_files": [
+   "tests/test_console.py"
+  ],
+  "stmt_len": 452,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_console.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": null,
+  "query_only_rank": null,
+  "run_tests_hit": false,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3130",
+  "gold_src": [
+   "rich/markdown.py"
+  ],
+  "test_files": [
+   "tests/test_markdown.py"
+  ],
+  "stmt_len": 878,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_markdown.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3043",
+  "gold_src": [
+   "rich/_export_format.py"
+  ],
+  "test_files": [
+   "tests/test_console.py"
+  ],
+  "stmt_len": 286,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_console.py"
+  ],
+  "tests_for_rank": null,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 1,
+  "run_tests_hit": false,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3067",
+  "gold_src": [
+   "rich/highlighter.py"
+  ],
+  "test_files": [
+   "tests/test_highlighter.py"
+  ],
+  "stmt_len": 584,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_highlighter.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3006",
+  "gold_src": [
+   "rich/repr.py"
+  ],
+  "test_files": [
+   "tests/test_repr.py"
+  ],
+  "stmt_len": 677,
+  "locate_s": 0.7,
+  "file_rank": 2,
+  "sym_rank": 4,
+  "existing_test_files": [
+   "tests/test_repr.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3064",
+  "gold_src": [
+   "rich/markdown.py"
+  ],
+  "test_files": [
+   "tests/test_markdown.py"
+  ],
+  "stmt_len": 76,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 2,
+  "existing_test_files": [
+   "tests/test_markdown.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 2,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3063",
+  "gold_src": [
+   "rich/markup.py"
+  ],
+  "test_files": [
+   "tests/test_markup.py"
+  ],
+  "stmt_len": 85,
+  "locate_s": 0.7,
+  "file_rank": null,
+  "sym_rank": null,
+  "existing_test_files": [
+   "tests/test_markup.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": null,
+  "run_tests_hit": true,
+  "chain_tests_rank": null,
+  "chain_q_rank": null,
+  "repo": "Textualize/rich"
+ },
+ {
+  "id": "rich_3061",
+  "gold_src": [
+   "rich/text.py"
+  ],
+  "test_files": [
+   "tests/test_panel.py",
+   "tests/test_text.py"
+  ],
+  "stmt_len": 411,
+  "locate_s": 0.7,
+  "file_rank": 1,
+  "sym_rank": 1,
+  "existing_test_files": [
+   "tests/test_panel.py",
+   "tests/test_text.py"
+  ],
+  "tests_for_rank": 1,
+  "tests_for_q_rank": 1,
+  "query_only_rank": 3,
+  "run_tests_hit": true,
+  "chain_tests_rank": 1,
+  "chain_q_rank": 1,
+  "repo": "Textualize/rich"
+ }
+]

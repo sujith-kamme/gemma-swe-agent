@@ -15,7 +15,7 @@ from pathlib import Path
 REPOS = [
     # (github repo, extra pip packages for its tests)
     ('more-itertools/more-itertools', []),
-    ('encode/starlette', ['httpx', 'anyio', 'trio', 'python-multipart', 'jinja2', 'itsdangerous', 'pyyaml']),
+    ('encode/starlette', ['httpx', 'anyio', 'trio', 'python-multipart==0.0.12', 'jinja2', 'itsdangerous', 'pyyaml']),
     ('fastapi/typer', ['shellingham', 'rich', 'coverage']),
     ('python-poetry/tomlkit', ['pyyaml']),
     ('arrow-py/arrow', ['python-dateutil', 'pytz', 'simplejson', 'dateparser', 'pytest-mock']),
@@ -27,7 +27,6 @@ REPOS = [
     ('PyCQA/pyflakes', []),
     ('andialbrecht/sqlparse', []),
     ('python-jsonschema/jsonschema', ['jsonschema-specifications', 'referencing', 'rpds-py']),
-    ('PyCQA/isort', ['hypothesis', 'pytest-mock', 'black', 'colorama']),
     ('pygments/pygments', ['wcag-contrast-ratio']),
 ]
 SINCE = '2022-01-01'

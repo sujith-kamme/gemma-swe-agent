@@ -8,7 +8,7 @@ description: After editing, prove the fix and check for regressions, then review
 1. **Your test passes.**
    `timeout 60 python .git/swe/try_test.py .git/swe/test_repro.py --near <existing test file>` must print RESULT: PASSED.
 2. **Existing tests still pass.**
-   `timeout 120 python .git/swe/run_tests.py`
+   `timeout 120 python .git/swe/run_tests.py --query "<task title>"`
    (or pass test files explicitly). Every failing test is labeled:
    - PRE-EXISTING: fails without your change too. Ignore it.
    - NEW: passes without your change. Fix your code — unless the task explicitly asks for that behavior change, in which

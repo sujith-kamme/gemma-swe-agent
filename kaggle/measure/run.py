@@ -34,6 +34,20 @@ def files_of(patch):
     return re.findall(r'^\+\+\+ b/(\S+)', patch, re.M)
 
 
+def new_test_files(tp):
+    out, cur, first = set(), None, False
+    for l in tp.splitlines():
+        m = re.match(r'^\+\+\+ b/(\S+)', l)
+        if m:
+            cur, first = m.group(1), True
+            continue
+        if cur and l.startswith('@@'):
+            if first and l.startswith('@@ -0,0 '):
+                out.add(cur)
+            first = False
+    return out
+
+
 def run_tool(script, args, ws):
     r = subprocess.run([sys.executable, str(TOOLS / script), *args], cwd=ws, capture_output=True, text=True,
                        timeout=120, env={**os.environ, 'SWE_WORKSPACE': ws})
@@ -62,16 +76,21 @@ def measure(task, snap):
         row['file_rank'] = next((i + 1 for i, f in enumerate(top_files) if f in g), None)
         row['sym_rank'] = next((i + 1 for i, f in enumerate(sym_files) if f in g), None)
         # test finding, given the true changed source file (oracle localization)
-        tf_out = run_tool('tests_for.py', gold_src[:2], ws) if gold_src else ''
-        tf_files = re.findall(r'^  (\S+)  score=', tf_out, re.M)
-        tset = set(test_files)
-        row['tests_for_rank'] = next((i + 1 for i, f in enumerate(tf_files) if f in tset), None)
-        rel = run_tests.related(ws, gold_src) if gold_src else []
+        tset = set(test_files) - new_test_files(task['test_patch'])   # only files that exist at base
+        row['existing_test_files'] = sorted(tset)
+        q = task['problem_statement'].split('\n\n')[0][:300]
+        def tf_rank(args):
+            files = re.findall(r'^  (\S+)  score=', run_tool('tests_for.py', args, ws), re.M)
+            return next((i + 1 for i, f in enumerate(files) if f in tset), None)
+        row['tests_for_rank'] = tf_rank(gold_src[:2]) if gold_src else None
+        row['tests_for_q_rank'] = tf_rank(gold_src[:2] + ['--query', q]) if gold_src else None
+        row['query_only_rank'] = tf_rank(['--query', q])
+        rel = run_tests.related(ws, gold_src, task['problem_statement'].split('\n\n')[0][:300]) if gold_src else []
         row['run_tests_hit'] = bool(tset & set(rel))
         # realistic chain: tests_for on locate's top file
         if top_files:
-            tf2 = re.findall(r'^  (\S+)  score=', run_tool('tests_for.py', top_files[:1], ws), re.M)
-            row['chain_tests_rank'] = next((i + 1 for i, f in enumerate(tf2) if f in tset), None)
+            row['chain_tests_rank'] = tf_rank(top_files[:1])
+            row['chain_q_rank'] = tf_rank(top_files[:1] + ['--query', q])
     return row
 
 
@@ -79,16 +98,22 @@ def summarize(rows):
     n = len(rows) or 1
     def rate(pred):
         return round(sum(1 for r in rows if pred(r)) / n, 3)
-    return {
+    ex = [r for r in rows if r.get('existing_test_files')]
+    m = len(ex) or 1
+    def trate(key, k=3):
+        return round(sum(1 for r in ex if (r.get(key) or 99) <= k) / m, 3)
+    tests = {'tasks_with_existing_test_file': len(ex),
+             'tests@1 module only': trate('tests_for_rank', 1), 'tests@3 module only': trate('tests_for_rank'),
+             'tests@1 module+query': trate('tests_for_q_rank', 1), 'tests@3 module+query': trate('tests_for_q_rank'),
+             'tests@3 query only': trate('query_only_rank'),
+             'chain@3 locate top1': trate('chain_tests_rank'), 'chain@3 locate top1+query': trate('chain_q_rank')}
+    return {**tests,
         'tasks': len(rows),
         'file_hit@1': rate(lambda r: r.get('file_rank') == 1),
         'file_hit@3': rate(lambda r: (r.get('file_rank') or 99) <= 3),
         'file_hit@5': rate(lambda r: (r.get('file_rank') or 99) <= 5),
         'symbol_file_hit@12': rate(lambda r: r.get('sym_rank') is not None),
-        'tests_for_hit@1 (oracle src)': rate(lambda r: r.get('tests_for_rank') == 1),
-        'tests_for_hit@3 (oracle src)': rate(lambda r: (r.get('tests_for_rank') or 99) <= 3),
-        'run_tests_related_hit (oracle src)': rate(lambda r: r.get('run_tests_hit')),
-        'chain_tests_hit@3 (locate top1 -> tests_for)': rate(lambda r: (r.get('chain_tests_rank') or 99) <= 3),
+        'run_tests_related_hit (oracle src, existing)': round(sum(1 for r in ex if r.get('run_tests_hit')) / m, 3),
         'no_src_gold': sum(1 for r in rows if not r.get('gold_src')),
         'median_locate_s': sorted(r.get('locate_s', 0) for r in rows)[len(rows) // 2] if rows else 0,
     }

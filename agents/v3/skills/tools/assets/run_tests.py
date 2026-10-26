@@ -1,9 +1,9 @@
 """Run the existing tests related to your change and classify every failure.
 
-Usage: run_tests.py [test_file_or_node ...]
+Usage: run_tests.py [test_file_or_node ...] [--query "<task title>"]
 
-With no arguments, picks test files related to the modified source files
-(git diff). Runs them with a timeout. For each failing test it re-runs that
+With no test files given, picks test files related to the modified source files
+(git diff) and to the task title (same ranking as tests_for.py). Runs them with a timeout. For each failing test it re-runs that
 test on the original code (your changes stashed, then restored) and reports:
   PRE-EXISTING  fails without your change too: not caused by you
   NEW           passes without your change: a regression, or the behavior change the task asks for
@@ -62,7 +62,19 @@ def is_test(rel):
     return n.startswith('test_') or n.endswith('_test.py') or '/tests/' in '/' + rel or n == 'conftest.py'
 
 
-def related(ws, changed):
+def related(ws, changed, query=''):
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import tests_for
+        _, _, scores, _ = tests_for.rank(ws, changed, query)
+        if scores:
+            return [r for r, _ in scores.most_common(3)]
+    except Exception:
+        pass
+    return related_by_imports(ws, changed)
+
+
+def related_by_imports(ws, changed):
     stems = {os.path.basename(c)[:-3].lstrip('_') for c in changed if c.endswith('.py')}
     mods = set()
     for c in changed:
@@ -95,9 +107,14 @@ def related(ws, changed):
 def main():
     ws = workspace()
     targets = [a for a in sys.argv[1:] if a != '--']
+    query = ''
+    if '--query' in targets:
+        i = targets.index('--query')
+        query = ' '.join(targets[i + 1:i + 2])
+        del targets[i:i + 2]
     changed = [l[3:].strip() for l in git(ws, 'status', '--porcelain').stdout.splitlines() if l[3:].strip().endswith('.py')]
     if not targets:
-        targets = related(ws, [c for c in changed if not is_test(c)])
+        targets = related(ws, [c for c in changed if not is_test(c)], query)
         if not targets:
             print('No related test files found. Pass test files explicitly, e.g. run_tests.py tests/test_x.py')
             return

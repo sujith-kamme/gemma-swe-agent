@@ -10,7 +10,7 @@ MINER_SRC = r'''"""Mine SWE tasks from a public Python repository's merged pull 
 
 Mirrors the competition's curation pipeline:
   1. Commit/PR mining: first-parent commits whose message looks like a merged PR,
-     that modify source .py files AND existing test files (no new test files).
+     that modify source .py files AND test files (existing or new, like the competition data).
   2. Problem statement = PR title + description (commit subject + body).
   3. Filters: small source change, no docs-only / mechanical changes.
   4. Execution verification: test files fail with only the test patch applied
@@ -73,9 +73,8 @@ def candidates(repo_dir, since, max_src_files=3, max_src_lines=200):
         status = sh(['git', 'diff', '--name-status', parent, sha], cwd=repo_dir).stdout.split('\n')
         files = [l.split('\t') for l in status if l.strip()]
         tests = [f[-1] for f in files if is_test(f[-1]) and f[-1].endswith('.py')]
-        new_tests = [f[-1] for f in files if f[0].startswith('A') and is_test(f[-1])]
         src = [f[-1] for f in files if f[-1].endswith('.py') and not is_test(f[-1]) and not is_doc(f[-1])]
-        if not tests or new_tests or not src or len(src) > max_src_files:
+        if not tests or not src or len(src) > max_src_files:
             continue
         if any(s.startswith('src/') for s in src):
             continue  # the Kaggle subprocess sandbox cannot install src-layout packages
@@ -208,7 +207,7 @@ from pathlib import Path
 REPOS = [
     # (github repo, extra pip packages for its tests)
     ('more-itertools/more-itertools', []),
-    ('encode/starlette', ['httpx', 'anyio', 'trio', 'python-multipart', 'jinja2', 'itsdangerous', 'pyyaml']),
+    ('encode/starlette', ['httpx', 'anyio', 'trio', 'python-multipart==0.0.12', 'jinja2', 'itsdangerous', 'pyyaml']),
     ('fastapi/typer', ['shellingham', 'rich', 'coverage']),
     ('python-poetry/tomlkit', ['pyyaml']),
     ('arrow-py/arrow', ['python-dateutil', 'pytz', 'simplejson', 'dateparser', 'pytest-mock']),
@@ -220,7 +219,6 @@ REPOS = [
     ('PyCQA/pyflakes', []),
     ('andialbrecht/sqlparse', []),
     ('python-jsonschema/jsonschema', ['jsonschema-specifications', 'referencing', 'rpds-py']),
-    ('PyCQA/isort', ['hypothesis', 'pytest-mock', 'black', 'colorama']),
     ('pygments/pygments', ['wcag-contrast-ratio']),
 ]
 SINCE = '2022-01-01'

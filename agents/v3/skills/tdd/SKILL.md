@@ -5,13 +5,15 @@ description: Write the failing test first, in the style of the project's existin
 
 # Test first: reproduce the task as a test
 
-The grader adds new tests to an EXISTING test file and runs that whole file. Write the same kind of test yourself
+The grader adds hidden tests, usually to the existing test file for that feature (about a third of the time to a new file
+named after the feature), and runs those whole files. Write the same kind of test yourself
 before changing code. It must FAIL (or TIMEOUT) now, for the reason the task describes.
 
 ## 1. Find the existing tests and their style
-`timeout 60 python .git/swe/tests_for.py <path/to/module.py> <SymbolName>`
+`timeout 60 python .git/swe/tests_for.py <path/to/module.py> <SymbolName> --query "<task title>"`
 Shows the most relevant test files, test names, one short test as a style example, its imports, and the pytest command.
-Test files are not always named after the module; this script searches by imports and mentions.
+Test files are often named after the feature, not the module; the script combines imports/mentions with a match of the
+task title against test file and test names.
 
 ## 2. Write one small test that encodes the acceptance criterion
 - Same imports, fixtures and assertion style as the example (exact `==` comparisons, `pytest.raises(..., match=...)`,

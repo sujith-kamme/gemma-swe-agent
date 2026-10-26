@@ -43,9 +43,9 @@ for f in names:
     shutil.copy(os.path.join(assets, f), os.path.join(dest, f))
 print(f'Installed {", ".join(names)} into .git/swe/ (not part of the patch). Use them with run_command:')
 print('''  timeout 60 python .git/swe/locate.py "<task title and key sentence>"     rank likely functions/files
-  timeout 60 python .git/swe/tests_for.py <path/to/module.py> <Symbol>       related tests + their style
+  timeout 60 python .git/swe/tests_for.py <path/to/module.py> <Symbol> --query "<task title>"   related tests + style
   write_file(filepath=".git/swe/test_repro.py", content=<pytest test>)       then:
   timeout 60 python .git/swe/try_test.py .git/swe/test_repro.py --near <existing test file>
-  timeout 120 python .git/swe/run_tests.py [test files]                     existing tests, failures labeled
+  timeout 120 python .git/swe/run_tests.py --query "<task title>" [test files]                     existing tests, failures labeled
   timeout 60 python .git/swe/check_diff.py                                   review patch before submit
   python .git/swe/notes.py add "<finding>"  |  python .git/swe/notes.py show''')
