@@ -1,0 +1,14 @@
+name: editor
+description: Makes the code change at the planned locations, from a focused context printed by a script.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/editor.md
+include_contents: none
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - write_file
+output_key: edit
+disallow_transfer_to_parent: true
+disallow_transfer_to_peers: true
+generate_content_config: !include ../configs/sampling_editor.yaml

@@ -1,0 +1,13 @@
+name: locator
+description: Finds where to edit. Runs the candidate pack script, picks the edit locations and writes a short plan.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/locator.md
+tools:
+  - run_command
+  - read_file
+skills:
+  - skills/tools
+output_key: plan
+disallow_transfer_to_parent: true
+disallow_transfer_to_peers: true
+generate_content_config: !include ../configs/sampling_locator.yaml

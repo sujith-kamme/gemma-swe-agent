@@ -1,0 +1,7 @@
+agent_class: SequentialAgent
+name: swe_agent_v4
+description: Three-stage pipeline. Scripts do the search and context work; the model makes one narrow decision per stage (where to edit, the edit, the check).
+sub_agents:
+  - config_path: sub_agents/locator.yaml
+  - config_path: sub_agents/editor.yaml
+  - config_path: sub_agents/verifier.yaml
