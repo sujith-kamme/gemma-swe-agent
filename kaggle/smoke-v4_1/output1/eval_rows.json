@@ -1,0 +1,82 @@
+[
+  {
+    "source": "comp",
+    "id": "fastapi_15280",
+    "resolved": false,
+    "exit_code": 1,
+    "tool_calls": 43,
+    "seconds": 292.6,
+    "patch_chars": 1060,
+    "error": null
+  },
+  {
+    "source": "comp",
+    "id": "fastapi_14301",
+    "resolved": true,
+    "exit_code": 0,
+    "tool_calls": 11,
+    "seconds": 94.2,
+    "patch_chars": 613,
+    "error": null
+  },
+  {
+    "source": "comp",
+    "id": "rich_3718",
+    "resolved": true,
+    "exit_code": 0,
+    "tool_calls": 13,
+    "seconds": 135.7,
+    "patch_chars": 766,
+    "error": null
+  },
+  {
+    "source": "comp",
+    "id": "rich_3061",
+    "resolved": false,
+    "exit_code": 1,
+    "tool_calls": 23,
+    "seconds": 305.7,
+    "patch_chars": 1095,
+    "error": "Agent exceeded session timeout (5 min)"
+  },
+  {
+    "source": "mined",
+    "id": "tomlkit_539",
+    "resolved": false,
+    "exit_code": 1,
+    "tool_calls": 20,
+    "seconds": 303.6,
+    "patch_chars": 919,
+    "error": "Agent exceeded session timeout (5 min)"
+  },
+  {
+    "source": "mined",
+    "id": "arrow_1074",
+    "resolved": false,
+    "exit_code": 1,
+    "tool_calls": 35,
+    "seconds": 304.3,
+    "patch_chars": 644,
+    "error": "Agent exceeded session timeout (5 min)"
+  },
+  {
+    "source": "mined",
+    "id": "boltons_458",
+    "resolved": true,
+    "exit_code": 0,
+    "tool_calls": 17,
+    "seconds": 95.6,
+    "patch_chars": 849,
+    "error": null
+  },
+  {
+    "source": "mined",
+    "id": "pyflakes_668",
+    "resolved": false,
+    "exit_code": 1,
+    "tool_calls": 35,
+    "seconds": 302.4,
+    "patch_chars": 1856,
+    "error": "Agent exceeded session timeout (5 min)"
+  }
+]

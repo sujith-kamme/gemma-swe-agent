@@ -1,0 +1,13 @@
+name: fixer
+description: Finds where to edit with the candidate pack script and makes the code change.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/fixer.md
+tools:
+  - run_command
+  - edit_file
+skills:
+  - skills/tools
+output_key: edit
+disallow_transfer_to_parent: true
+disallow_transfer_to_peers: true
+generate_content_config: !include ../configs/sampling_fixer.yaml

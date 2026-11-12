@@ -1,0 +1,13 @@
+name: verifier
+description: Reviews the patch and runs the related existing tests, makes at most one correction, and submits.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/verifier.md
+include_contents: none
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - submit_patch
+disallow_transfer_to_parent: true
+disallow_transfer_to_peers: true
+generate_content_config: !include ../configs/sampling_verifier.yaml

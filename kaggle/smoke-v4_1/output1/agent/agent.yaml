@@ -1,0 +1,6 @@
+agent_class: SequentialAgent
+name: swe_agent_v4_1
+description: Two-stage pipeline. Scripts do the search, context and test work within the output and time limits; the fixer finds the place and edits, the checker verifies and submits.
+sub_agents:
+  - config_path: sub_agents/fixer.yaml
+  - config_path: sub_agents/verifier.yaml
