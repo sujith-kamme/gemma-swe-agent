@@ -1,0 +1,8 @@
+# 8 minutes and 28 calls per task: the limits of the public agents that score 0.17-0.24, which finish
+# ~120 tasks within the 12-hour limit because most tasks end early. A 5-minute cap scored 0.13.
+# timeout_seconds 240: some scorer versions also use it as the grading pytest timeout.
+evaluation:
+  timeout_seconds: 240
+  max_tool_calls: 28
+  max_time_minutes: 8
+  max_turns: 80

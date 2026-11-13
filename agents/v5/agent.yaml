@@ -1,0 +1,13 @@
+name: swe_agent_v5
+description: Single agent. Scripts find candidates and context within the output limit and keep time; the agent edits, checks the edit against the task with its own small test, and submits.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include prompts/system.md
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - write_file
+  - submit_patch
+skills:
+  - skills/tools
+generate_content_config: !include configs/sampling.yaml
